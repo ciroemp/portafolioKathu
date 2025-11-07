@@ -1,0 +1,604 @@
+/* FUCSIA
+
+R: 234
+G: 65
+B: 145
+
+VERDE
+
+R: 170
+G: 201
+B: 16  */
+
+
+h1 {
+  font-size: clamp(1.6rem, 2.5vw, 2.8rem);
+}
+
+h2 {
+  font-size: clamp(1.4rem, 2.2vw, 2.4rem);
+}
+
+h3 {
+  font-size: clamp(1.1rem, 2vw, 1.8rem);
+}
+
+h4 {
+  font-size: clamp(1rem, 1.8vw, 1.5rem);
+}
+
+h5 {
+  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+}
+
+h6 {
+  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+}
+
+
+
+p {
+  font-size: clamp(0.9rem, 1.6vw, 1.1rem);
+  word-wrap: break-word;
+  /* evita desbordes */
+  overflow-wrap: break-word;
+  text-align: center;
+  /* opcional, si querés mantener el texto centrado */
+}
+
+/* FUCSIA
+
+R: 234
+G: 65
+B: 145
+
+VERDE
+
+R: 170
+G: 201
+B: 16  */
+
+
+h1 {
+  font-size: clamp(1.6rem, 2.5vw, 2.8rem);
+}
+
+h2 {
+  font-size: clamp(1.4rem, 2.2vw, 2.4rem);
+}
+
+h3 {
+  font-size: clamp(1.1rem, 2vw, 1.8rem);
+}
+
+h4 {
+  font-size: clamp(1rem, 1.8vw, 1.5rem);
+}
+
+h5 {
+  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+}
+
+h6 {
+  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+}
+
+
+
+p {
+  font-size: clamp(0.9rem, 1.6vw, 1.1rem);
+  word-wrap: break-word;
+  /* evita desbordes */
+  overflow-wrap: break-word;
+  text-align: center;
+  /* opcional, si querés mantener el texto centrado */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* que ocupe toda la altura de la ventana */
+  margin: 0; /* elimina márgenes predeterminados */
+}
+
+/* Contenedor principal de contenido */
+body > .imaginario, 
+body > .index, 
+body > .jugadora { /* aplica según la clase de body */
+  flex: 1; /* ocupa todo el espacio disponible, empuja el footer abajo */
+}
+
+/* Footer */
+footer {
+  flex-shrink: 0; /* evita que se achique */
+  background-color: black; /* opcional, si querés color */
+  color: white; /* opcional */
+}
+
+body.index {
+  background-image: url("/img/Portada-optimizada.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body.jugadora {
+  background-image: url("/img/Fondo--jugadora.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body.mundos {
+   
+  /*background-image: url("/img/imaginario-fondo-1.png");    */
+  /* capa inferior */
+
+  background-repeat: no-repeat;
+  /* una regla por capa */
+  background-size:cover;
+  /* tamaño por capa */
+  background-position: center top;
+  /* posición por capa */
+  color: aliceblue;
+  padding: 0;
+  margin: 0;
+
+}
+
+.imaginario-fondo2 {
+  background-image: url("/img/imagaginario-fondo-2-camino.png");
+  /* capa superior */
+  background-repeat: no-repeat;
+  /* una regla por capa */
+  background-size: 100%;
+  /* tamaño por capa */
+  background-position: center top;
+
+  width: 100%;
+  
+
+}
+
+.mundo-titular-h1 {
+  padding-left: 40vw;
+
+}
+
+/*  *****  CONFIGURACION DE HEADER  *****  */
+
+/* Espacio superior del header */
+header {
+  margin-top: 60px;
+}
+
+/* Contenedor centrado */
+.navbar-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Barra negra más ancha */
+.navbar {
+  background-color: black;
+  border-radius: 35px;
+  padding: 2px 2px;
+  /* ← aumentamos alto de la barra */
+}
+
+/* Área interna más compacta */
+.navbar .navbar-nav {
+  gap: 25px;
+  /* separa un poco los links entre sí */
+}
+
+/* Enlaces */
+.navbar .nav-link {
+  color: whitesmoke !important;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 3px 10px;
+  /* ← menos padding para acercar el texto al borde negro */
+  transition: 0.3s;
+}
+
+/* Efecto hover */
+.navbar .nav-link:hover {
+  background-color: rgb(170, 201, 16);
+  color: black !important;
+
+}
+
+/* Enlace activo */
+.navbar .nav-link.active {
+  background-color: rgb(170, 201, 16);
+  color: whitesmoke !important;
+
+}
+
+/*  *****  CONFIGURACION INDEX  *****  */
+
+h4.text-center {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.index-text1 {
+  font-size: 1.4rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* "Creado por" */
+.index-text2 {
+  color: white;
+  /* Verde esmeralda */
+
+}
+
+/* "Katherine Fernández" */
+.index-text3 {
+  color: rgb(170, 201, 16);
+  /* Azul suave */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Párrafos */
+p {
+  color: white;
+  /* Gris oscuro */
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.boton-falso {
+  display: inline-block;
+  /* Se comporta como un botón */
+  background: linear-gradient(to right, rgb(170, 201, 16), black);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  user-select: none;
+  /* Evita seleccionar el texto */
+  cursor: default;
+  /* Cursor normal */
+  font-weight: bold;
+  text-align: center;
+  transition: background 0.3s;
+
+}
+
+/*-----------------------pagina jugadora------------------*/
+
+
+.fondo-tarjeta {
+  background-image: url(/img/TARJETA.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+
+
+  /* Sombra solo en X e Y, sin tanto blur */
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.50);
+
+}
+
+#tarjeta1 {
+  transform: rotate(-8deg);
+  z-index: 2;
+}
+
+#tarjeta2 {
+  transform: rotate(10deg);
+  z-index: 1;
+}
+
+.cont-tarjeta {
+  width: 100%;
+  max-width: 600px;
+  /* límite razonable en pantallas grandes */
+  margin: 0 auto;
+  /* centra el contenedor */
+  align-items: center;
+
+}
+
+
+.tarjeta {
+  border: 2px solid rgb(170, 201, 16);
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.superior-tarjeta {
+  background: linear-gradient(to right, rgb(234, 65, 145), rgb(170, 201, 16));
+  border-radius: 30px;
+  transform: translateY(50%);
+  margin: 0;
+  padding: 0;
+
+}
+
+.superior-tarjeta2 {
+  background: linear-gradient(to right, rgb(170, 201, 16), rgb(234, 65, 145));
+  border-radius: 30px;
+  max-width: 60%;
+  transform: translateY(-50%);
+
+
+}
+
+.icono {
+
+  max-width: 48px;
+  min-width: 25px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  border-radius: 50%;
+  /* 🔹 círculo perfecto */
+}
+
+.icono-imaginario {
+  width: 50px;
+  /* tamaño fijo */
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: middle;
+  object-fit: cover;
+  /* asegura que la imagen no se deforme */
+}
+
+.iconos-container {
+  text-align: right;
+  /* 🔹 alinea todo el grupo a la derecha */
+  white-space: nowrap;
+  /* 🔹 evita que salten de línea */
+
+}
+
+.iconos-container img+img {
+  margin-left: -6px;
+  /* 🔹 junta aún más los íconos */
+}
+
+.icono img {
+  width: 100px;
+  /* o el tamaño que quieras */
+  height: 100px;
+  object-fit: cover;
+  /* mantiene la imagen centrada y recortada si no es cuadrada */
+  border-radius: 50%;
+  /* 🔹 hace la imagen circular */
+  display: block;
+  margin: 0 auto;
+  /* centra horizontalmente */
+}
+
+.titulares {
+  border: 3.5px solid black;
+  text-align: left;
+  width: 60%;
+  margin-left: 2rem;
+  transform: translateY(-50%);
+  display: inline-block;
+  padding: 6px 20px;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-family: sans-serif;
+  background: #fff;
+  border-radius: 30px;
+  color: #000;
+  position: relative;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+
+}
+
+/* Línea negra curvada */
+.titulares::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 30px;
+  /* ajusta según el ancho del verde */
+  width: 3.5px;
+  /* grosor de la franja negra */
+  height: 100%;
+  background: rgb(255, 255, 255);
+  border-radius: 30px solid black;
+  /* 🔹 curva igual que el borde */
+
+  z-index: 2;
+}
+
+/* Parte verde con radio */
+.titulares::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: -8px;
+  width: 40px;
+  height: 100%;
+  background: #a5ff00;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  z-index: 3;
+}
+
+.herramientas {
+  text-align: center;
+  border: 4px solid #AF306C;
+  border-radius: 30px;
+  padding: 3% 0% 0% 0%;
+
+}
+
+.herramientas h6 {
+  color: aliceblue;
+  text-align: center;
+}
+
+.progress {
+  background-color: #a7df22;
+  /* color de fondo de la barra */
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 🎨 Colores personalizados de las barras */
+.barras-blanca {
+  background-color: white;
+  /* azul Bootstrap */
+}
+
+.fondo-menu-cartas {
+  background-image: url(/img/TARJETA.png);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  padding: 0rem;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 95px;
+  /* altura uniforme */
+  max-height: 100px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.fondo-menu-cartas img {
+
+  max-height: 100px;
+  display: block;
+
+  
+}
+
+
+
+
+#contenido-dinamico {
+  background-image: url("/img/imaginario-fondo-1.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* o prueba contain si se deforma */
+  background-position: center top;
+  
+}
+
+#contenido-dinamico img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto; /* evita deformaciones */
+}
+
+#contenido-dinamico p {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+#contenido-dinamico .fondo-tarjeta {
+  transform: rotate(-6deg);
+  max-width: 100%;
+  border-radius: 35px;
+}
+
+
+.b-ra {
+  border-radius: 35px;
+}
+
+.b-ra2 {
+  border-radius: 15px;
+}
+
+.menu-carta {
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.menu-carta:hover {
+  transform: scale(1.05);
+}
+
+.menu-carta.activo {
+
+  box-shadow: 0 0 25px rgb(234, 65, 145);
+}
+
+#arikaP {
+  color: black !important;
+}
+
+
+
+@media (max-width: 776px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .cont-tarjeta {
+    max-width: 100%;
+  }
+
+  .titulares {
+    width: 80%;
+    /* hace que el título se vea más natural en pantallas chicas */
+    margin-left: 10%;
+  }
+
+  .fondo-menu-cartas {
+    min-height: 110px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .fondo-menu-cartas h6 {
+    font-size: 68%;
+  }
+
+  #contenido-dinamico img {
+    max-height: 45vw;
+    display: block;
+  }
+
+
+  .imaginario-fondo2 {
+    background-size: contain;
+
+
+  }
+
+  #contenido-dinamico .fondo-tarjeta {
+  transform: rotate(-6deg);
+  max-width: 70vw;
+  border-radius: 35px;
+}
+
+.b-ra2 {
+  margin-top: 5rem;
+}
+
+  
+
+}
