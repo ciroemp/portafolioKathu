@@ -273,7 +273,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- SEPTIMO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-11.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-11.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                         <div class="col-md-6 gx-3 gy-3">
                             <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-12.png" class="img-fluid b-ra" alt="diseno arika">
