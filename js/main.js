@@ -9,18 +9,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Fondo del body (capa inferior)
   const fondosBody = {
-    imaginario: "url('/img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
-    identitario: "url('/img/MUNDO-IDENTITARIO/FONDO.png')",
-    emocional: "url('/img/fondos/fondo-emocional.jpg')",
-    anexo: "url('/img/fondos/fondo-anexo.jpg')",
+    imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
+    identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
+    emocional: "url('../img/fondos/fondo-emocional.jpg')",
+    anexo: "url('../img/fondos/fondo-anexo.jpg')",
   };
 
   // Fondo del div superior (.imaginario-fondo2)
   const fondosFondo2 = {
-    imaginario: "url('/img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
-    identitario: "url('/img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
-    emocional: "url('/img/fondos/fondo2-emocional.png')",
-    anexo: "url('/img/fondos/fondo2-anexo.png')",
+    imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
+    identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
+    emocional: "url('../img/fondos/fondo2-emocional.png')",
+    anexo: "url('../img/fondos/fondo2-anexo.png')",
   };
 
   // Cambiar fondo del body si existe
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
                         <div class="col-md-4 fondo-tarjeta text-center">
-                            <img src="/img/MUNDO-IMAGINARIO/PINOCHO/IMG-GRANDE-PINOCHO.png" alt="imagen pinocho" class="img-fluid">
+                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/IMG-GRANDE-PINOCHO.png" alt="imagen pinocho" class="img-fluid">
                         </div>
 
                         <!-- Texto -->
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 peso del control y la identidad.</p>
                             <div class="container d-flex align-items-end justify-content-start p-0">
                                 <div class="p-0">
-                                    <img src="/img/PS.png" alt="logo PhotoShop" class="img-fluid" style="max-width: 60px;">
+                                    <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid" style="max-width: 60px;">
                                 </div>
                             </div>
                         </div>
@@ -64,28 +64,28 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- PRIMER CONTENEDOR -->
                     <div class="row mt-5 d-flex">
                         <div class="col">
-                            <img src="/img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-1.png" alt="boceto" class="img-fluid b-ra">
+                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-1.png" alt="boceto" class="img-fluid b-ra">
                         </div>
                     </div>
 
                     <!-- SEGUNDO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-2.png" class="img-fluid b-ra" alt="pinocho">
+                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-2.png" class="img-fluid b-ra" alt="pinocho">
                         </div>
                         <div class="col-md-6 gx-3 gy-3 d-flex flex-column justify-content-between">
-                            <img src="/img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-3.png" class="img-fluid b-ra mb-4" alt="">
-                            <img src="/img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-4.png" class="img-fluid b-ra" alt="">
+                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-3.png" class="img-fluid b-ra mb-4" alt="">
+                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-4.png" class="img-fluid b-ra" alt="">
                         </div>
                     </div>
 
                     <!-- TERCER CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-5.png" class="img-fluid b-ra" alt="Libro Pinocho">
+                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-5.png" class="img-fluid b-ra" alt="Libro Pinocho">
                         </div>
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-6.png" class="img-fluid b-ra" alt="Bolso Pinocho">
+                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-6.png" class="img-fluid b-ra" alt="Bolso Pinocho">
                         </div>
                     </div>
 
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- LOGO FINAL -->
                     <div class="row text-center my-auto">
                         <div class="col gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/PINOCHO/LOGO-pinocho.png" alt="Logo Pinocho" class="img-fluid">
+                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/LOGO-pinocho.png" alt="Logo Pinocho" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
                         <div class="col-md-4 fondo-tarjeta text-center">
-                            <img src="/img/MUNDO-IMAGINARIO/JIPILOVE/IMG-GRANDE-JIPILOVE.png" alt="imagen JIPILOVE" class="img-fluid">
+                            <img src="../img/MUNDO-IMAGINARIO/JIPILOVE/IMG-GRANDE-JIPILOVE.png" alt="imagen JIPILOVE" class="img-fluid">
                         </div>
 
                         <!-- Texto -->
@@ -126,11 +126,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="container d-flex align-items-end justify-content-start p-0">
                                 <div class="p-0 d-flex g-3">
                                     <div class="container ps-0">
-                                        <img src="/img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                        <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
                                             style="max-width: 60px;">
                                     </div>
                                     <div class="container ps-0">
-                                        <img src="/img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                        <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
                                             style="max-width: 60px;">
 
                                     </div>
@@ -145,27 +145,27 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- PRIMER CONTENEDOR -->
                     <div class="row d-flex mt-5">
                         <div class="col d-flex justify-content-center">
-                            <img src="/img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE---1.png" alt="modelo imagen" class="img-fluid b-ra">
+                            <img src="../img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE---1.png" alt="modelo imagen" class="img-fluid b-ra">
                         </div>
                     </div>
 
                     <!-- SEGUNDO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-2.png" class="img-fluid b-ra" alt="diseno jipilove">
+                            <img src="../img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-2.png" class="img-fluid b-ra" alt="diseno jipilove">
                         </div>
                         <div class="col gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-3.png" class="img-fluid b-ra" alt="diseno jipilove">
+                            <img src="../img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-3.png" class="img-fluid b-ra" alt="diseno jipilove">
                         </div>
                     </div>
 
                     <!-- TERCER CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-4.png" class="img-fluid b-ra" alt="diseno jipilove">
+                            <img src="../img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-4.png" class="img-fluid b-ra" alt="diseno jipilove">
                         </div>
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-5.png" class="img-fluid b-ra" alt="modelo jipilove">
+                            <img src="../img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-5.png" class="img-fluid b-ra" alt="modelo jipilove">
                         </div>
                     </div>
 
@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- LOGO FINAL -->
                     <div class="row text-center my-auto">
                         <div class="col gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-6.png" alt="Logo JIPILOVE" class="img-fluid">
+                            <img src="../img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-6.png" alt="Logo JIPILOVE" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
                         <div class="col-md-4 fondo-tarjeta text-center">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/IMG-GRANDE-ARIKA.png" alt="imagen" class="img-fluid">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/IMG-GRANDE-ARIKA.png" alt="imagen" class="img-fluid">
                         </div>
 
                         <!-- Texto -->
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 humor y ternura cómo aprendimos que compartir también es amar.</p>
                             <div class="container d-flex align-items-end justify-content-start p-0">
                                 <div class="p-0">
-                                    <img src="/img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                    <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
                                         style="max-width: 60px;">
                                 </div>
                             </div>
@@ -219,54 +219,54 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- PRIMER CONTENEDOR -->
                     <div class="row mt-5 d-flex">
                         <div class="col">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-1.png" alt="boceto" class="img-fluid b-ra">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-1.png" alt="boceto" class="img-fluid b-ra">
                         </div>
                     </div>
 
                     <!-- SEGUNDO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-2.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-2.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-3.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-3.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                     </div>
 
                     <!-- TERCER CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-4.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-4.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-5.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-5.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                     </div>
 
                     <!-- CUARTO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-6.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-6.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-7.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-7.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                     </div>
 
                     <!-- QUINTO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-8.png" alt="diseno arika" class="img-fluid b-ra">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-8.png" alt="diseno arika" class="img-fluid b-ra">
                         </div>
                     </div>
 
                     <!-- SEXTO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-9.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-9.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-10.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-10.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                     </div>
 
@@ -276,7 +276,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-11.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                         <div class="col-md-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-12.png" class="img-fluid b-ra" alt="diseno arika">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-12.png" class="img-fluid b-ra" alt="diseno arika">
                         </div>
                     </div>
 
@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- LOGO FINAL -->
                     <div class="row text-center my-3">
                         <div class="col">
-                            <img src="/img/MUNDO-IMAGINARIO/ARIKA/ARIKA-13.png" alt="Logo ARIKA" class="img-fluid">
+                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-13.png" alt="Logo ARIKA" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -305,7 +305,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
                         <div class="col-lg-4 fondo-tarjeta text-center">
-                            <img src="/img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/IMG-GRANDE-SOMBRERO-AZUL.png" alt="imagen sandalia"
+                            <img src="../img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/IMG-GRANDE-SOMBRERO-AZUL.png" alt="imagen sandalia"
                                 class="img-fluid">
                         </div>
 
@@ -318,11 +318,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="container d-flex align-items-end justify-content-start p-0">
                                 <div class="p-0 d-flex g-3">
                                     <div class="container ps-0">
-                                        <img src="/img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                        <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
                                             style="max-width: 60px;">
                                     </div>
                                     <div class="container ps-0">
-                                        <img src="/img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                        <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
                                             style="max-width: 60px;">
                                     </div>
                                 </div>
@@ -335,11 +335,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- PRIMER CONTENEDOR -->
                     <div class="row d-flex mt-5">
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-1.png" class="img-fluid b-ra2"
+                            <img src="../img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-1.png" class="img-fluid b-ra2"
                                 alt="diseno sombrilla azul">
                         </div>
                         <div class="col-lg-6 gx-4 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-2.png" class="img-fluid b-ra2"
+                            <img src="../img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-2.png" class="img-fluid b-ra2"
                                 alt="diseno sombrilla azul">
                         </div>
                     </div>
@@ -347,7 +347,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- SEGUNDO CONTENEDOR -->
                     <div class="row d-flex">
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-3.png" alt="modelo imagen"
+                            <img src="../img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-3.png" alt="modelo imagen"
                                 class="img-fluid b-ra2">
                         </div>
                     </div>
@@ -367,7 +367,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- LOGO FINAL -->
                     <div class="row text-center my-3">
                         <div class="col">
-                            <img src="/img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-4.png" alt="Logo sombrilla azul"
+                            <img src="../img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-4.png" alt="Logo sombrilla azul"
                                 class="img-fluid">
                         </div>
                     </div>
@@ -379,7 +379,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
                         <div class="col-lg-4 fondo-tarjeta text-center">
-                            <img src="/img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/IMG-GRANDE-CUIDAMOS-TANTO.png" alt="imagen corazon"
+                            <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/IMG-GRANDE-CUIDAMOS-TANTO.png" alt="imagen corazon"
                                 class="img-fluid">
                         </div>
 
@@ -404,11 +404,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- PRIMER CONTENEDOR -->
                     <div class="row d-flex mt-5">
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-1.png" class="img-fluid b-ra2"
+                            <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-1.png" class="img-fluid b-ra2"
                                 alt="diseno cuidamosTanto">
                         </div>
                         <div class="col-lg-6 gx-4 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-2.png" class="img-fluid b-ra2"
+                            <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-2.png" class="img-fluid b-ra2"
                                 alt="diseno CUIDAMOS-TANTO">
                         </div>
                     </div>
@@ -416,11 +416,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- SEGUNDO CONTENEDOR -->
                     <div class="row d-flex">
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-3.png" class="img-fluid b-ra2"
+                            <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-3.png" class="img-fluid b-ra2"
                                 alt="diseno CUIDAMOS-TANTO">
                         </div>
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-4.png" class="img-fluid b-ra2"
+                            <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-4.png" class="img-fluid b-ra2"
                                 alt="diseno CUIDAMOS-TANTO">
                         </div>
                     </div>
@@ -428,11 +428,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- TERCER CONTENEDOR -->
                     <div class="row d-flex">
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-5.png" class="img-fluid b-ra2"
+                            <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-5.png" class="img-fluid b-ra2"
                                 alt="diseno CUIDAMOS-TANTO">
                         </div>
                         <div class="col-lg-6 gx-4 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-6.png" class="img-fluid b-ra2"
+                            <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-6.png" class="img-fluid b-ra2"
                                 alt="diseno CUIDAMOS-TANTO">
                         </div>
                     </div>
@@ -451,7 +451,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- LOGO FINAL -->
                     <div class="row text-center my-4">
                         <div class="col">
-                            <img src="/img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-7.png" alt="Logo Cuidamos Tanto"
+                            <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-7.png" alt="Logo Cuidamos Tanto"
                                 class="img-fluid">
                         </div>
                     </div>
@@ -464,7 +464,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
                         <div class="col-lg-4 fondo-tarjeta text-center">
-                            <img src="/img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/IMG-GRANDE-ESCARABAJO.png" alt="imagen escarabajo"
+                            <img src="../img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/IMG-GRANDE-ESCARABAJO.png" alt="imagen escarabajo"
                                 class="img-fluid">
                         </div>
 
@@ -477,11 +477,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="container d-flex align-items-end justify-content-start p-0">
                                 <div class="p-0 d-flex g-3">
                                     <div class="container ps-0">
-                                        <img src="/img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                        <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
                                             style="max-width: 60px;">
                                     </div>
                                     <div class="container ps-0">
-                                        <img src="/img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                        <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
                                             style="max-width: 60px;">
                                     </div>
                                 </div>
@@ -494,7 +494,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- PRIMER CONTENEDOR -->
                     <div class="row mt-5 d-flex">
                         <div class="container g-3">
-                            <img src="/img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-1.png" alt="modelo imagen"
+                            <img src="../img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-1.png" alt="modelo imagen"
                                 class="img-fluid b-ra">
                         </div>
                     </div>
@@ -502,11 +502,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- SEGUNDO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-2.png" class="img-fluid b-ra"
+                            <img src="../img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-2.png" class="img-fluid b-ra"
                                 alt="diseno mundos anexos">
                         </div>
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-3.png" class="img-fluid b-ra"
+                            <img src="../img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-3.png" class="img-fluid b-ra"
                                 alt="diseno">
                         </div>
                     </div>
@@ -514,11 +514,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- TERCERO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-4.png" class="img-fluid b-ra"
+                            <img src="../img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-4.png" class="img-fluid b-ra"
                                 alt="diseno mundos anexos">
                         </div>
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-5.png" class="img-fluid b-ra"
+                            <img src="../img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-5.png" class="img-fluid b-ra"
                                 alt="diseno">
                         </div>
                     </div>
@@ -526,11 +526,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- CUARTO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-6.png" class="img-fluid b-ra"
+                            <img src="../img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-6.png" class="img-fluid b-ra"
                                 alt="diseno mundos anexos">
                         </div>
                         <div class="col-lg-6 gx-3 gy-3">
-                            <img src="/img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-7.png" class="img-fluid b-ra"
+                            <img src="../img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-7.png" class="img-fluid b-ra"
                                 alt="diseno">
                         </div>
                     </div>
