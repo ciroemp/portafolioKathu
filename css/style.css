@@ -97,22 +97,29 @@ p {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* que ocupe toda la altura de la ventana */
-  margin: 0; /* elimina márgenes predeterminados */
+  min-height: 100vh;
+  /* que ocupe toda la altura de la ventana */
+  margin: 0;
+  /* elimina márgenes predeterminados */
 }
 
 /* Contenedor principal de contenido */
-body > .imaginario, 
-body > .index, 
-body > .jugadora { /* aplica según la clase de body */
-  flex: 1; /* ocupa todo el espacio disponible, empuja el footer abajo */
+body>.imaginario,
+body>.index,
+body>.jugadora {
+  /* aplica según la clase de body */
+  flex: 1;
+  /* ocupa todo el espacio disponible, empuja el footer abajo */
 }
 
 /* Footer */
 footer {
-  flex-shrink: 0; /* evita que se achique */
-  background-color: black; /* opcional, si querés color */
-  color: white; /* opcional */
+  flex-shrink: 0;
+  /* evita que se achique */
+  background-color: black;
+  /* opcional, si querés color */
+  color: white;
+  /* opcional */
 }
 
 body.index {
@@ -130,13 +137,13 @@ body.jugadora {
 }
 
 body.mundos {
-   
+
   /*background-image: url("/img/imaginario-fondo-1.png");    */
   /* capa inferior */
 
   background-repeat: no-repeat;
   /* una regla por capa */
-  background-size:cover;
+  background-size: cover;
   /* tamaño por capa */
   background-position: center top;
   /* posición por capa */
@@ -147,7 +154,7 @@ body.mundos {
 }
 
 .imaginario-fondo2 {
-  background-image: url("/img/imagaginario-fondo-2-camino.png");
+  /*background-image: url("/img/imagaginario-fondo-2-camino.png");*/
   /* capa superior */
   background-repeat: no-repeat;
   /* una regla por capa */
@@ -156,7 +163,7 @@ body.mundos {
   background-position: center top;
 
   width: 100%;
-  
+
 
 }
 
@@ -468,7 +475,7 @@ p {
 
 .fondo-menu-cartas {
   background-image: url(/img/TARJETA.png);
-  
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -490,25 +497,27 @@ p {
   max-height: 100px;
   display: block;
 
-  
+
 }
 
 
 
 
 #contenido-dinamico {
-  background-image: url("/img/imaginario-fondo-1.png");
+  background-image: url("/img/MUNDO-IMAGINARIO/imaginario-fondo-1.png");
   background-repeat: no-repeat;
-  background-size: cover; /* o prueba contain si se deforma */
+  background-size: cover;
+  /* o prueba contain si se deforma */
   background-position: center top;
-  
+
 }
 
 #contenido-dinamico img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  height: auto; /* evita deformaciones */
+  height: auto;
+  /* evita deformaciones */
 }
 
 #contenido-dinamico p {
@@ -578,7 +587,7 @@ p {
   }
 
   #contenido-dinamico img {
-    max-height: 45vw;
+    max-height: 95vw;
     display: block;
   }
 
@@ -590,15 +599,18 @@ p {
   }
 
   #contenido-dinamico .fondo-tarjeta {
-  transform: rotate(-6deg);
-  max-width: 70vw;
-  border-radius: 35px;
-}
+    transform: rotate(0deg);
+    max-width: 70vw;
+    border-radius: 35px;
+    margin: auto;
+  }
 
-.b-ra2 {
-  margin-top: 5rem;
-}
+  .b-ra2 {
+    margin-top: 5rem;
+  }
 
   
+
+
 
 }
