@@ -346,7 +346,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <!-- SEGUNDO CONTENEDOR -->
                     <div class="row d-flex">
-                        <div class="col-lg-6 gx-3 gy-3">
+                        <div class="gx-3 gy-3">
                             <img src="../img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-3.png" alt="modelo imagen"
                                 class="img-fluid b-ra2">
                         </div>
