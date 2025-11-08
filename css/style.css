@@ -123,14 +123,14 @@ footer {
 }
 
 body.index {
-  background-image: url("./img/Portada-optimizada.png");
+  background-image: url("../img/Portada-optimizada.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 body.jugadora {
-  background-image: url("./img/Fondo--jugadora.png");
+  background-image: url("../img/Fondo--jugadora.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -280,7 +280,7 @@ p {
 
 
 .fondo-tarjeta {
-  background-image: url("./img/TARJETA.png");
+  background-image: url("../img/TARJETA.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -474,7 +474,7 @@ p {
 }
 
 .fondo-menu-cartas {
-  background-image: url("./img/TARJETA.png");
+  background-image: url("../img/TARJETA.png");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -504,7 +504,7 @@ p {
 
 
 #contenido-dinamico {
-  background-image: url("./img/MUNDO-IMAGINARIO/imaginario-fondo-1.png");
+  background-image: url("../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* o prueba contain si se deforma */
