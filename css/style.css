@@ -559,12 +559,17 @@ p {
 }
 
 .sombra {
-  text-shadow: 2px 2px 12px #000;
+  text-shadow: 2px 2px 12px rgb(0, 0, 0);;
+}
+
+.formatoMundos {
+  padding-top: 15vw;
+  max-width: 40vw;
+  
 }
 
 
-
-@media (max-width: 776px) {
+@media (max-width: 800px) {
   .container {
     padding-left: 5%;
     padding-right: 5%;
@@ -611,6 +616,12 @@ p {
 
   .b-ra2 {
     margin-top: 5rem;
+  }
+
+  .formatoMundos {
+    padding-top: 15vw;
+    max-width: 95%;
+
   }
 
   

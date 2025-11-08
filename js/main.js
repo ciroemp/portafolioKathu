@@ -1,43 +1,43 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const botones = document.querySelectorAll(".menu-carta");
-  const contenedor = document.getElementById("contenido-dinamico");
-  const body = document.body;
-  const bodyId = body.id;
-  const fondo2 = document.querySelector(".imaginario-fondo2");
+    const botones = document.querySelectorAll(".menu-carta");
+    const contenedor = document.getElementById("contenido-dinamico");
+    const body = document.body;
+    const bodyId = body.id;
+    const fondo2 = document.querySelector(".imaginario-fondo2");
 
-  // ====== 🔹 CAMBIO DE FONDOS ======
+    // ====== 🔹 CAMBIO DE FONDOS ======
 
-  // Fondo del body (capa inferior)
-  const fondosBody = {
-    imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
-    identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
-    emocional: "url('../img/fondos/fondo-emocional.jpg')",
-    anexo: "url('../img/fondos/fondo-anexo.jpg')",
-  };
+    // Fondo del body (capa inferior)
+    const fondosBody = {
+        imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
+        identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
+        emocional: "url('../img/fondos/fondo-emocional.jpg')",
+        anexo: "url('../img/fondos/fondo-anexo.jpg')",
+    };
 
-  // Fondo del div superior (.imaginario-fondo2)
-  const fondosFondo2 = {
-    imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
-    identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
-    emocional: "url('../img/fondos/fondo2-emocional.png')",
-    anexo: "url('../img/fondos/fondo2-anexo.png')",
-  };
+    // Fondo del div superior (.imaginario-fondo2)
+    const fondosFondo2 = {
+        imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
+        identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
+        emocional: "url('../img/fondos/fondo2-emocional.png')",
+        anexo: "url('../img/fondos/fondo2-anexo.png')",
+    };
 
-  // Cambiar fondo del body si existe
-  if (fondosBody[bodyId]) {
-    body.style.backgroundImage = fondosBody[bodyId];
-  }
+    // Cambiar fondo del body si existe
+    if (fondosBody[bodyId]) {
+        body.style.backgroundImage = fondosBody[bodyId];
+    }
 
-  // Cambiar fondo del div superior si existe
-  if (fondo2 && fondosFondo2[bodyId]) {
-    fondo2.style.backgroundImage = fondosFondo2[bodyId];
-  }
+    // Cambiar fondo del div superior si existe
+    if (fondo2 && fondosFondo2[bodyId]) {
+        fondo2.style.backgroundImage = fondosFondo2[bodyId];
+    }
 
-  // ====== 🔹 CONTENIDO DINÁMICO ======
+    // ====== 🔹 CONTENIDO DINÁMICO ======
 
-  // Contenidos personalizados por proyecto
-  const contenido = {
-    pinocho: `
+    // Contenidos personalizados por proyecto
+    const contenido = {
+        pinocho: `
       <div id="pinocho" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
     `,
-    jipilove: `      
+        jipilove: `      
                 <div id="jipilove" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
     `,
-    arika: `
+        arika: `
       <div id="arika" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -300,7 +300,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
     `,
 
-    sombrillaAzul: `
+        sombrillaAzul: `
     <div id="sombrillaAzul" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -374,7 +374,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
     `,
 
-    cuidamosTanto: `
+        cuidamosTanto: `
     <div id="cuidamosTanto" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -459,7 +459,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     `,
 
-    escarabajo: `
+        escarabajo: `
     <div id="escarabajo" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -553,7 +553,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     `,
 
-    muscleMunch: `
+        muscleMunch: `
     <div id="muscleMunch" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
@@ -642,8 +642,6 @@ document.addEventListener("DOMContentLoaded", function () {
                             </div>
                         </div>
 
-
-
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
                             <div class="col p-4 b-ra" style="background-color: #000000;">
@@ -655,30 +653,122 @@ document.addEventListener("DOMContentLoaded", function () {
                                     MUNCH fusiona el poder del rendimiento con la motivación de comunidad fitness.</p>
                             </div>
                         </div>
-
-
-
-
                     </div>
 
+    `,
 
+        atractiva: ` 
+    <div id="atractiva" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta text-center">
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-ATRACTIVA.png" alt="imagen atractiva"
+                                    class="img-fluid">
+                            </div>
 
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>ATRACTIVA</h1>
+                                <p>Es Marca de ropa femenina hecha con amor en El Salvador. Cada prenda está pensada para resaltar la belleza natural y la confianza de la mujer salvadoreña.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/ATRACTIVA/ATRACTIVA-1.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/ATRACTIVA/ATRACTIVA-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/ATRACTIVA/ATRACTIVA-3.png"
+                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: rgb(0, 46, 117);">
+                                        <h6>#002E75</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/ATRACTIVA/ATRACTIVA-4.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: rgb(50, 130, 196);">
+                                        <h6>#3282C4</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/ATRACTIVA/ATRACTIVA-5.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: rgb(248, 184, 22); color: black;">
+                                        <h6>#F8B816</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color:  rgb(0, 46, 117);">
+                                <p>Nace del deseo de que cada mujer salvadoreña pueda verse y sentirse bien consigo misma. Más que una marca de ropa, es una invitación a reconectarse con la feminidad, la autoestima y la expresión personal. Las prendas están elaboradas en satín, un material que simboliza delicadeza, luminosidad y movimiento, reflejando la fuerza suave que caracteriza a la mujer. Cada pieza es confeccionada con detalle y cariño, bajo el lema “hecho con amor”, que representa tanto el proceso artesanal como el propósito emocional detrás de la marca.</p>
+                            </div>
+                        </div>
+                    </div>
+    
     `
 
-  };
+    };
 
-  // ====== 🔹 EVENTOS DE LOS BOTONES ======
+    // ====== 🔹 EVENTOS DE LOS BOTONES ======
 
-  botones.forEach((boton) => {
-    boton.addEventListener("click", () => {
-      // Cambiar estado activo
-      botones.forEach((b) => b.classList.remove("activo"));
-      boton.classList.add("activo");
+    botones.forEach((boton) => {
+        boton.addEventListener("click", () => {
+            // Cambiar estado activo
+            botones.forEach((b) => b.classList.remove("activo"));
+            boton.classList.add("activo");
 
-      // Cargar contenido
-      const proyecto = boton.getAttribute("data-proyecto");
-      contenedor.innerHTML =
-        contenido[proyecto] || "<p>Contenido no disponible.</p>";
+            // Cargar contenido
+            const proyecto = boton.getAttribute("data-proyecto");
+            contenedor.innerHTML =
+                contenido[proyecto] || "<p>Contenido no disponible.</p>";
+        });
     });
-  });
 });
