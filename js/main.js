@@ -753,7 +753,103 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                     </div>
     
-    `
+    `,
+        marti: ` 
+        <div id="atractiva" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta text-center">
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-MARTI.png" alt="imagen atractiva"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>MARTÍ</h1>
+                                <p>Es una marca de joyería contemporánea para mujeres y hombres que valoran la elegancia con propósito.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MARTI/MARTI-1.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MARTI/MARTI-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/MARTI/MARTI-3.png"
+                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: rgb(0, 83, 70);">
+                                        <h6>#005346</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/MARTI/MARTI-4.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #FFFFFF; color: black;">
+                                        <h6>#FFFFFF</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/MARTI/MARTI-5.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: rgb(227, 189, 134);">
+                                        <h6>#E3BD86</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color:  rgb(0, 83, 70);">
+                                <p>Nace como una marca de joyería inclusiva y versátil, diseñada para acompañar tanto la fuerza masculina como la sutileza femenina. Su esencia se basa en la brillantez interior: cada pieza busca resaltar la personalidad de quien la lleva, sin opacar, sino potenciando su presencia natural. Su lema, “Tan brillante como tú”, expresa la idea de que cada persona posee su propio brillo interior, y que las joyas son solo el reflejo de esa luz. La marca fusiona minimalismo, sofisticación y equilibrio entre lo clásico y lo moderno, creando piezas que celebran la autenticidad y la confianza personal.</p>
+                            </div>
+                        </div>
+                    </div>
+                    `
 
     };
 
