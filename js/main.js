@@ -551,7 +551,121 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
     
+    `,
+
+    muscleMunch: `
+    <div id="muscleMunch" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta text-center">
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-MUSCLE-MUNCH.png" alt="imagen sandalia"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>MUSCLE MUNCH</h1>
+                                <p>Es una marca de suplementos deportivos creada para quienes viven el entrenamiento con
+                                    pasión.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MUSCLE MUNCH/MUSCLE-MUNCH-1.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MUSCLE MUNCH/MUSCLE-MUNCH-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/MUSCLE MUNCH/MUSCLE-MUNCH-3.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #000000;">
+                                        <h6>#000000</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/MUSCLE MUNCH/MUSCLE-MUNCH-4.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #BC1F1E;">
+                                        <h6>#BC1F1E</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/MUSCLE MUNCH/MUSCLE-MUNCH-5.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: #FFFFFF; color: black;">
+                                        <h6>#FFFFFF</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #000000;">
+                                <p>Su promesa es simple pero poderosa: “Tu aliado en cada rep.”
+                                    Representa disciplina, energía y progreso constante, acompañando a cada persona en
+                                    su
+                                    camino de superación física y mental. Con una estética fuerte, moderna y directa,
+                                    MUSCLE
+                                    MUNCH fusiona el poder del rendimiento con la motivación de comunidad fitness.</p>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
     `
+
+
 
   };
 
