@@ -1,0 +1,16 @@
+AIREVO
+marca de viajes que simboliza libertad, movimiento y elegancia.
+
+---
+
+Su nombre combina “aire” y “evolución”, representando el deseo de avanzar, descubrir y volar hacia nuevas experiencias. El diseño parte del símbolo del ave, elegida por su asociación con el cielo y el sentido de exploración. La marca busca transmitir fuerza, ligereza y confianza, fusionando elementos visuales que evocan el vuelo, el movimiento y la energía de viajar. La tipografía sans serif refuerza el estilo moderno y minimalista, aportando claridad y profesionalismo al conjunto visual. El resultado es una marca que inspira movimiento, aventura y elegancia: un símbolo del viaje como transformación.
+
+CUADRO AZUL
+R: 0
+G: 37
+B: 62
+
+CUADRO ROJO
+R: 179
+G: 18
+B: 39

@@ -1,0 +1,28 @@
+MARISCO
+El proyecto marisco surge de una conexión personal con la playa y los sabores del mar.
+
+---
+
+“MARisco: la ciudad con sabor a mar.” Un rincón playero en el corazón de la ciudad, donde el azul del océano y el aroma del mar se encuentran con la frescura, la energía y el sabor tropical. La marca utiliza una paleta de colores fríos, dominada por los azules del océano, equilibrados con un naranja cálido que transmite energía y sabor. El logotipo integra de forma visual la palabra “MAR” y “isco”, reforzando su identidad: el mar como esencia y los mariscos como producto principal.
+
+El espacio —una casa de cristal rústica en el corazón de la ciudad— invita a disfrutar una pausa entre el ritmo urbano, evocando el sonido de las olas, la brisa y la frescura del mar.
+
+CUADRO BEIGE
+R: 215
+G: 191
+B: 154
+
+CUADRO NARANJA
+R: 236
+G: 133
+B: 31
+
+CUADRO CELESTE
+R: 140
+G: 204
+B: 223
+
+CUADRO AZUL
+R: 14
+G: 108
+B: 140

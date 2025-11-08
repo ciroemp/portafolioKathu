@@ -1,0 +1,21 @@
+ATRACTIVA
+Marca de ropa femenina hecha con amor en El Salvador. Cada prenda está pensada para resaltar la belleza natural y la confianza de la mujer salvadoreña.
+
+---
+
+Nace del deseo de que cada mujer salvadoreña pueda verse y sentirse bien consigo misma. Más que una marca de ropa, es una invitación a reconectarse con la feminidad, la autoestima y la expresión personal. Las prendas están elaboradas en satín, un material que simboliza delicadeza, luminosidad y movimiento, reflejando la fuerza suave que caracteriza a la mujer. Cada pieza es confeccionada con detalle y cariño, bajo el lema “hecho con amor”, que representa tanto el proceso artesanal como el propósito emocional detrás de la marca.
+
+CUADRO AZUL
+R: 0
+G: 46
+B: 117
+
+CUADRO CELESTE
+R: 50
+G: 130
+B: 196
+
+CUADRO AMARILLO
+R: 248
+G: 184
+B: 22
