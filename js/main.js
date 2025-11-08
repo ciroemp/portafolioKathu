@@ -392,7 +392,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="container d-flex align-items-end justify-content-start p-0">
                                 <div class="p-0 d-flex g-3">
                                     <div class="container ps-0">
-                                        <img src="/img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                        <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
                                             style="max-width: 60px;">
                                     </div>
                                 </div>
