@@ -665,8 +665,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     `
 
-
-
   };
 
   // ====== 🔹 EVENTOS DE LOS BOTONES ======
