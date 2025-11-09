@@ -101,6 +101,7 @@ body {
   /* que ocupe toda la altura de la ventana */
   margin: 0;
   /* elimina márgenes predeterminados */
+  padding: 0;
 }
 
 /* Contenedor principal de contenido */
@@ -141,15 +142,15 @@ body.mundos {
   /*background-image: url("/img/imaginario-fondo-1.png");    */
   /* capa inferior */
 
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   /* una regla por capa */
   background-size: 100%;
   /* tamaño por capa */
   background-position: center top;
   /* posición por capa */
   color: aliceblue;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 
 }
 
@@ -284,7 +285,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 600px;
+  max-width: 75vh;
   justify-content: center;
   align-items: center;
   border-radius: 35px;
@@ -306,8 +307,9 @@ p {
 }
 
 .cont-tarjeta {
-  width: 100%;
-  max-width: 600px;
+
+  max-width: 80vh;
+
   /* límite razonable en pantallas grandes */
   margin: 0 auto;
   /* centra el contenedor */
@@ -317,12 +319,19 @@ p {
 
 
 .tarjeta {
-  border: 2px solid rgb(170, 201, 16);
+  border: 3px solid rgb(170, 201, 16);
   margin: 0;
   padding: 0;
-
-
 }
+
+.tarjeta2 {
+  border: 3px solid rgb(170, 201, 16);
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+
+
 
 .superior-tarjeta {
   background: linear-gradient(to right, rgb(234, 65, 145), rgb(170, 201, 16));
@@ -342,17 +351,7 @@ p {
 
 }
 
-.icono {
 
-  max-width: 48px;
-  min-width: 25px;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  border-radius: 50%;
-  /* 🔹 círculo perfecto */
-}
 
 .icono-imaginario {
   width: 50px;
@@ -372,24 +371,24 @@ p {
   white-space: nowrap;
   /* 🔹 evita que salten de línea */
 
+
 }
 
 .iconos-container img+img {
-  margin-left: -6px;
+  margin-left: -5px;
   /* 🔹 junta aún más los íconos */
 }
 
-.icono img {
-  width: 100px;
-  /* o el tamaño que quieras */
-  height: 100px;
-  object-fit: cover;
-  /* mantiene la imagen centrada y recortada si no es cuadrada */
+.icono {
+
+  max-width: 48px;
+  min-width: 20px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
   border-radius: 50%;
-  /* 🔹 hace la imagen circular */
-  display: block;
-  margin: 0 auto;
-  /* centra horizontalmente */
+  /* 🔹 círculo perfecto */
 }
 
 .titulares {
@@ -449,7 +448,7 @@ p {
 .herramientas {
   text-align: center;
   border: 4px solid #AF306C;
-  border-radius: 30px;
+  border-radius: 25px;
   padding: 3% 0% 0% 0%;
 
 }
@@ -559,13 +558,19 @@ p {
 }
 
 .sombra {
-  text-shadow: 2px 2px 12px rgb(0, 0, 0);;
+  text-shadow: 2px 2px 12px rgb(0, 0, 0);
+  ;
+}
+
+sombra2 {
+  text-shadow: 0px 0px 5px rgb(0, 0, 0);
+  ;
 }
 
 .formatoMundos {
   padding-top: 15vw;
   max-width: 40vw;
-  
+
 }
 
 
@@ -576,7 +581,7 @@ p {
   }
 
   .cont-tarjeta {
-    max-width: 100%;
+    max-width: 95%;
   }
 
   .titulares {
@@ -602,7 +607,7 @@ p {
 
 
   .imaginario-fondo2 {
-    background-size: contain;
+    background-size: 100%;
 
 
   }
@@ -624,7 +629,7 @@ p {
 
   }
 
-  
+
 
 
 
