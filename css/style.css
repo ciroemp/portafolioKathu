@@ -295,8 +295,22 @@ p {
 
 
   /* Sombra solo en X e Y, sin tanto blur */
-  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.50);
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0);
 
+}
+
+.fondo-tarjeta1y2 {
+  background-image: url("../img/TARJETA1y2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* 👈 Fuerza a ocupar todo el ancho y alto */
+  background-position: center;
+  max-width: 75vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  box-shadow: 0px 8px 50px #000;
+
+  
 }
 
 #tarjeta1 {
@@ -390,7 +404,7 @@ p {
   margin: 0;
   padding: 0;
   vertical-align: middle;
-  border-radius: 50%;
+  
   /* 🔹 círculo perfecto */
 }
 
