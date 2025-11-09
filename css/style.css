@@ -568,8 +568,9 @@ sombra2 {
 }
 
 .formatoMundos {
-  padding-top: 15vw;
-  max-width: 40vw;
+  padding-top: 13vw;
+  max-width: 70vh;
+  line-height: 0;
 
 }
 
@@ -624,8 +625,9 @@ sombra2 {
   }
 
   .formatoMundos {
-    padding-top: 15vw;
+    padding-top: 12vw;
     max-width: 95%;
+    line-height: 0;
 
   }
 
