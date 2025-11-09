@@ -142,6 +142,9 @@ body.mundos {
   /*background-image: url("/img/imaginario-fondo-1.png");    */
   /* capa inferior */
 
+
+  /*SE CARGA EN JS*/
+
   background-repeat: repeat-y;
   /* una regla por capa */
   background-size: 100%;
@@ -449,8 +452,8 @@ p {
   text-align: center;
   border: 4px solid #AF306C;
   border-radius: 25px;
-  padding: 3% 0% 0% 0%;
-
+  padding: 2px;
+ 
 }
 
 .herramientas h6 {
@@ -575,7 +578,7 @@ sombra2 {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container {
     padding-left: 5%;
     padding-right: 5%;
