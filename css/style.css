@@ -45,8 +45,9 @@ p {
 
 }
 
-
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 body {

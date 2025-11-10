@@ -108,6 +108,14 @@ document.addEventListener("DOMContentLoaded", function () {
                             <img src="../img/MUNDO-IMAGINARIO/PINOCHO/LOGO-pinocho.png" alt="Logo Pinocho" class="img-fluid">
                         </div>
                     </div>
+                                
+                    <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+
                 </div>
     `,
         jipilove: `      
@@ -188,6 +196,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="col gx-3 gy-3">
                             <img src="../img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-6.png" alt="Logo JIPILOVE" class="img-fluid">
                         </div>
+                    </div>
+
+                    <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
                     </div>
                 </div>
     `,
@@ -297,6 +312,13 @@ document.addEventListener("DOMContentLoaded", function () {
                             <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-13.png" alt="Logo ARIKA" class="img-fluid">
                         </div>
                     </div>
+
+                    <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
                 </div>
     `,
 
@@ -370,6 +392,13 @@ document.addEventListener("DOMContentLoaded", function () {
                             <img src="../img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-4.png" alt="Logo sombrilla azul"
                                 class="img-fluid">
                         </div>
+                    </div>
+
+                    <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
                     </div>
                 </div>
     `,
@@ -454,6 +483,13 @@ document.addEventListener("DOMContentLoaded", function () {
                             <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-7.png" alt="Logo Cuidamos Tanto"
                                 class="img-fluid">
                         </div>
+                    </div>
+                    
+                    <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
                     </div>
                 </div>
 
@@ -546,7 +582,12 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                     </div>
 
+                    <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
 
+                        <p class="text-center">Volver arriba</p>
+                    </div>
 
                 </div>
 
@@ -653,6 +694,14 @@ document.addEventListener("DOMContentLoaded", function () {
                                     MUNCH fusiona el poder del rendimiento con la motivación de comunidad fitness.</p>
                             </div>
                         </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+
                     </div>
 
     `,
@@ -751,6 +800,13 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <p>Nace del deseo de que cada mujer salvadoreña pueda verse y sentirse bien consigo misma. Más que una marca de ropa, es una invitación a reconectarse con la feminidad, la autoestima y la expresión personal. Las prendas están elaboradas en satín, un material que simboliza delicadeza, luminosidad y movimiento, reflejando la fuerza suave que caracteriza a la mujer. Cada pieza es confeccionada con detalle y cariño, bajo el lema “hecho con amor”, que representa tanto el proceso artesanal como el propósito emocional detrás de la marca.</p>
                             </div>
                         </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
                     </div>
     
     `,
@@ -848,6 +904,13 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <p>Nace como una marca de joyería inclusiva y versátil, diseñada para acompañar tanto la fuerza masculina como la sutileza femenina. Su esencia se basa en la brillantez interior: cada pieza busca resaltar la personalidad de quien la lleva, sin opacar, sino potenciando su presencia natural. Su lema, “Tan brillante como tú”, expresa la idea de que cada persona posee su propio brillo interior, y que las joyas son solo el reflejo de esa luz. La marca fusiona minimalismo, sofisticación y equilibrio entre lo clásico y lo moderno, creando piezas que celebran la autenticidad y la confianza personal.</p>
                             </div>
                         </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
                     </div>
                     `
 
