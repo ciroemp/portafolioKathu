@@ -811,7 +811,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     `,
         marti: ` 
-        <div id="atractiva" class="container pt-3">
+        <div id="marti" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
                             <div class="col-lg-4 fondo-tarjeta text-center">
@@ -865,7 +865,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="col-lg-4 gx-3 gy-3">
                                 <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/MARTI/MARTI-3.png"
-                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                        class="img-fluid b-ra2" alt="Modelo">
                                 </div>
                                 <div class="row mx-auto">
                                     <div class="mt-3 py-5 b-ra text-center" style="background-color: rgb(0, 83, 70);">
@@ -876,7 +876,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="col-lg-4 gx-3 gy-3">
                                 <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/MARTI/MARTI-4.png"
-                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                        class="img-fluid b-ra2" alt="diseno">
                                 </div>
                                 <div class="row mx-auto">
                                     <div class="mt-3 py-5 b-ra text-center" style="background-color: #FFFFFF; color: black;">
@@ -887,7 +887,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="col-lg-4 gx-3 gy-3">
                                 <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/MARTI/MARTI-5.png"
-                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                        class="img-fluid b-ra2" alt="diseno">
                                 </div>
                                 <div class="row mx-auto">
                                     <div class="mt-3 py-5 b-ra text-center"
@@ -912,7 +912,214 @@ document.addEventListener("DOMContentLoaded", function () {
                         <p class="text-center">Volver arriba</p>
                     </div>
                     </div>
-                    `
+    `,
+        airevo: `
+                <div id="airevo" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta text-center">
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-AIREVO.png" alt="imagen atractiva"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>AIREVO</h1>
+                                <p>Marca de viajes que simboliza libertad, movimiento y elegancia.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/AIREVO/AIREVO-1.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/AIREVO/AIREVO-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/AIREVO/AIREVO-3.png"
+                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #ffffff;  color: black;">
+                                        <h6>#FFFFFF</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/AIREVO/AIREVO-4.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #00253E;">
+                                        <h6>#00253E</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/AIREVO/AIREVO-5.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: #B31227;">
+                                        <h6>#B31227</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color:  rgb(0, 37, 62);">
+                                <p>Su nombre combina aire” y “evolución”, representando el deseo de avanzar, descubrir y volar hacia nuevas experiencias. El diseño parte del símbolo del ave, elegida por su asociación con el cielo y el sentido de exploración. La marca busca transmitir fuerza, ligereza y confianza, fusionando elementos visuales que evocan el vuelo, el movimiento y la energía de viajar. La tipografía Sans Serif refuerza el estilo moderno y minimalista, aportando claridad y profesionalismo al conjunto visual. El resultado es una marca que inspira movimiento, aventura y elegancia: un símbolo del viaje como transformación.  </p>
+                            </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div>
+            
+    `,
+        marisco: `
+                <div id="marisco" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta text-center">
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-MARISCO.png" alt="imagen marisco"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>MARISCO</h1>
+                                <p>El proyecto marisco surge de una conexión personal con la playa y los sabores del mar.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-1.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-3.png"
+                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #ffffff;  color: black;">
+                                        <h6>#FFFFFF</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-4.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #00253E;">
+                                        <h6>#00253E</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-5.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: #B31227;">
+                                        <h6>#B31227</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color:  rgb(0, 37, 62);">
+                                <p>Su nombre combina aire” y “evolución”, representando el deseo de avanzar, descubrir y volar hacia nuevas experiencias. El diseño parte del símbolo del ave, elegida por su asociación con el cielo y el sentido de exploración. La marca busca transmitir fuerza, ligereza y confianza, fusionando elementos visuales que evocan el vuelo, el movimiento y la energía de viajar. La tipografía Sans Serif refuerza el estilo moderno y minimalista, aportando claridad y profesionalismo al conjunto visual. El resultado es una marca que inspira movimiento, aventura y elegancia: un símbolo del viaje como transformación.  </p>
+                            </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div>    
+    `
 
     };
 
