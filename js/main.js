@@ -1213,53 +1213,39 @@ document.addEventListener("DOMContentLoaded", function () {
                         <!-- TERCERO CONTENEDOR -->
                         <div class="row d-flex">
                             <div class="col-lg-4 gx-3 gy-3">
-                                
+                                <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-3.png"
                                         class="img-fluid b-ra2" alt="Modelo atractiva">
-                                
-                                
-                            </div>
-                            <div class="col-lg-4 gx-3 gy-3">
-                                
-                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-4.png"
-                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
-                                
-                                
-                            </div>
-                            <div class="col-lg-4 gx-3 gy-3">
-                                
-                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-5.png"
-                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
-                                                              
-                            </div>
-                        </div>
-
-                        <div class="row d-flex">
-                            <div class="col-lg-3 col-6 gx-3 gy-1">                    
+                                </div>
                                 <div class="row mx-auto">
                                     <div class="mt-3 py-5 b-ra text-center" style="background-color: #000;">
-                                        <h6>#D7BF9A</h6>
+                                        <h6>#000000</h6>
                                     </div>
                                 </div>
                             </div>
-                            
-                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-4.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
                                 <div class="row mx-auto">
                                     <div class="mt-3 py-5 b-ra text-center" style="background-color: RGB (241, 235, 227);">
-                                        <h6>#EC851F</h6>
+                                        <h6>#</h6>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-5.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
                                 <div class="row mx-auto">
                                     <div class="mt-3 py-5 b-ra text-center"
-                                        style="background-color: RGB (220, 24, 24);">
-                                        <h6>#8CCCDF</h6>
+                                        style="background-color: rgb (220, 24, 24);">
+                                        <h6>#B</h6>
                                     </div>
                                 </div>
-                            </div>       
-                        </div>
+                            </div>
 
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
