@@ -1158,7 +1158,144 @@ document.addEventListener("DOMContentLoaded", function () {
                         <p class="text-center">Volver arriba</p>
                     </div>
                     </div>    
+    `,
+    
+    clarita: `
+    <div id="marisco" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-CLARITA.png" alt="imagen marisco"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>PUPUSERIA CLARITA</h1>
+                                <p>Una marca familiar que une generaciones a través del sabor, el amor y la tradición.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-1.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                
+                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-3.png"
+                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                
+                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-4.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                
+                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-5.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                                              
+                            </div>
+                        </div>
+
+                        <div class="row d-flex">
+                            <div class="col-lg-3 col-6 gx-3 gy-1">                    
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #000;">
+                                        <h6>#D7BF9A</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: RGB (241, 235, 227);">
+                                        <h6>#EC851F</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: RGB (220, 24, 24);">
+                                        <h6>#8CCCDF</h6>
+                                    </div>
+                                </div>
+                            </div>       
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #0E6C8C;">
+                                <p>Pupusería Clarita celebra la tradición familiar y el amor por lo hecho a mano. Nacida del legado de la bisabuela Clarita y transmitida de generación en generación, la marca representa el sabor auténtico de las pupusas salvadoreñas y la calidez del hogar. Su estética vintage y alegre rinde homenaje a las pupuserías de antaño, rescatando la esencia del barrio, la cercanía y el valor de lo simple.
+Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa el orgullo de una familia que sigue cocinando con historia.</p>
+                             </div>
+                        </div>
+
+                        <!-- PENULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-6.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-7.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
     `
+
+
+
 
     };
 
