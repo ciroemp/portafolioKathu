@@ -1021,7 +1021,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div id="marisco" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
-                            <div class="col-lg-4 fondo-tarjeta text-center">
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
                                 <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-MARISCO.png" alt="imagen marisco"
                                     class="img-fluid">
                             </div>
@@ -1074,41 +1074,80 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-3.png"
                                         class="img-fluid b-ra2" alt="Modelo atractiva">
                                 </div>
-                                <div class="row mx-auto">
-                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #ffffff;  color: black;">
-                                        <h6>#FFFFFF</h6>
-                                    </div>
-                                </div>
+                                
                             </div>
                             <div class="col-lg-4 gx-3 gy-3">
                                 <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-4.png"
                                         class="img-fluid b-ra2" alt="diseno sombrilla azul">
                                 </div>
-                                <div class="row mx-auto">
-                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #00253E;">
-                                        <h6>#00253E</h6>
-                                    </div>
-                                </div>
+                                
                             </div>
                             <div class="col-lg-4 gx-3 gy-3">
                                 <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-5.png"
                                         class="img-fluid b-ra2" alt="diseno sombrilla azul">
-                                </div>
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="row d-flex">
+                            <div class="col-lg-3 col-6 gx-3 gy-1">                    
                                 <div class="row mx-auto">
-                                    <div class="mt-3 py-5 b-ra text-center"
-                                        style="background-color: #B31227;">
-                                        <h6>#B31227</h6>
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #D7BF9A;  color: black;">
+                                        <h6>#D7BF9A</h6>
                                     </div>
                                 </div>
                             </div>
+                            
+                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #EC851F;">
+                                        <h6>#EC851F</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: #8CCCDF;">
+                                        <h6>#8CCCDF</h6>
+                                    </div>
+                                </div>
+                            </div>      
+                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: #0E6C8C;">
+                                        <h6>#0E6C8C</h6>
+                                    </div>
+                                </div>
+                            </div>      
                         </div>
 
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
-                            <div class="col p-4 b-ra" style="background-color:  rgb(0, 37, 62);">
-                                <p>Su nombre combina aire” y “evolución”, representando el deseo de avanzar, descubrir y volar hacia nuevas experiencias. El diseño parte del símbolo del ave, elegida por su asociación con el cielo y el sentido de exploración. La marca busca transmitir fuerza, ligereza y confianza, fusionando elementos visuales que evocan el vuelo, el movimiento y la energía de viajar. La tipografía Sans Serif refuerza el estilo moderno y minimalista, aportando claridad y profesionalismo al conjunto visual. El resultado es una marca que inspira movimiento, aventura y elegancia: un símbolo del viaje como transformación.  </p>
+                            <div class="col p-4 b-ra" style="background-color: #0E6C8C;">
+                                <p>MARisco: darle a la ciudad un sabor a mar.” Un rincón playero en el corazón de la ciudad, donde el azul del océano y el aroma del mar se encuentran con la frescura, la energía y el sabor tropical. La marca utiliza una paleta de colores fríos, dominada por los azules del océano, equilibrados con un naranja cálido que transmite energía y sabor. El logotipo integra de forma visual la palabra “MAR” y “isco”, reforzando su identidad: el mar como esencia y los mariscos como producto principal.
+
+                                    El espacio —una casa de cristal rústica en el corazón de la ciudad— invita a disfrutar una pausa entre el ritmo urbano, evocando el sonido de las olas, la brisa y la frescura del mar.</p>
+                             </div>
+                        </div>
+
+                        <!-- PENULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-6.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-7.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
                             </div>
                         </div>
 
