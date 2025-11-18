@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const fondosBody = {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
-        conectados: "url('../img/MUNDO-CONECTADOS/Fondo.png')",
+        conectados: "url('../img/MUNDO-CONECTADOS/FONDO.png')",
         envolvente: "url('../img/fondos/fondo-anexo.jpg')",
     };
 
