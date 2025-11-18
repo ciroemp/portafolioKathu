@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const fondosBody = {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
-        emocional: "url('../img/fondos/fondo-emocional.jpg')",
+        conectados: "url('../img/MUNDO-CONECTADOS/Fondo.png')",
         anexo: "url('../img/fondos/fondo-anexo.jpg')",
     };
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const fondosFondo2 = {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
-        emocional: "url('../img/fondos/fondo2-emocional.png')",
+        conectados: "url('../img/Mundo-CONECTADOS/FONDO-CAMINO.png')",
         anexo: "url('../img/fondos/fondo2-anexo.png')",
     };
 
