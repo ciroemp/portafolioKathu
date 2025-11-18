@@ -3,35 +3,58 @@ document.addEventListener("DOMContentLoaded", function () {
     const contenedor = document.getElementById("contenido-dinamico");
     const body = document.body;
     const bodyId = body.id;
-    const fondo2 = document.querySelector(".imaginario-fondo2");
 
-    // ====== 🔹 CAMBIO DE FONDOS ======
+    // EL ELEMENTO QUE EL CÓDIGO DE JQUERY ANTERIOR TRATABA DE CAMBIAR
+    const elementoFondoMenu = document.querySelectorAll(".fondo-menu-cartas");
+    
+    // El div superior que ya habías seleccionado
+    const fondo2 = document.querySelector(".imaginario-fondo2"); 
 
-    // Fondo del body (capa inferior)
+    // ====== 🔹 CAMBIO DE FONDOS (LÓGICA UNIFICADA) ======
+
+    // ====== 🔹 CAMBIO DE FONDOS (LÓGICA UNIFICADA) ======
+
+    // 1. Fondos para el BODY (Capas inferiores)
     const fondosBody = {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
         conectados: "url('../img/MUNDO-CONECTADOS/Fondo.png')",
-        anexo: "url('../img/fondos/fondo-anexo.jpg')",
+        envolvente: "url('../img/fondos/fondo-anexo.jpg')",
     };
 
-    // Fondo del div superior (.imaginario-fondo2)
+    // 2. Fondos para el DIV SUPERIOR (.imaginario-fondo2)
     const fondosFondo2 = {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
-        conectados: "url('../img/Mundo-CONECTADOS/FONDO-CAMINO.png')",
-        anexo: "url('../img/fondos/fondo2-anexo.png')",
+        conectados: "url('../img/MUNDO-CONECTADOS/FONDO-CAMINO.png')",
+        envolvente: "url('../img/fondos/fondo2-anexo.png')",
     };
 
-    // Cambiar fondo del body si existe
+    // 3. Fondos para el MENÚ DE CARTAS (AQUÍ UNIMOS TU LÓGICA DE JQUERY)
+   const fondosMenuCartas = {
+        imaginario: "url('../img/TARJETA.png')", // Asegúrate de la ruta correcta
+        conectados: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')",
+        identitario: "url('../img/TARJETA.png')"
+    };
+
+    // Aplicar fondo del Body
     if (fondosBody[bodyId]) {
         body.style.backgroundImage = fondosBody[bodyId];
     }
 
-    // Cambiar fondo del div superior si existe
+    // Aplicar fondo del Div Superior (fondo2)
     if (fondo2 && fondosFondo2[bodyId]) {
         fondo2.style.backgroundImage = fondosFondo2[bodyId];
     }
+    
+    // === 🔹 AQUÍ ESTÁ LA CORRECCIÓN PARA APLICAR A TODOS ===
+    if (elementoFondoMenu.length > 0 && fondosMenuCartas[bodyId]) {
+        // Recorremos la lista de elementos uno por uno
+        elementoFondoMenu.forEach(function(elemento) {
+            elemento.style.backgroundImage = fondosMenuCartas[bodyId];
+        });
+    }
+    
 
     // ====== 🔹 CONTENIDO DINÁMICO ======
 
@@ -321,7 +344,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
     `,
-
         sombrillaAzul: `
     <div id="sombrillaAzul" class="container pt-3">
                     <div class="row d-flex g-3">
@@ -402,7 +424,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
     `,
-
         cuidamosTanto: `
     <div id="cuidamosTanto" class="container pt-3">
                     <div class="row d-flex g-3">
@@ -494,7 +515,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
     `,
-
         escarabajo: `
     <div id="escarabajo" class="container pt-3">
                     <div class="row d-flex g-3">
@@ -593,7 +613,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     `,
-
         muscleMunch: `
     <div id="muscleMunch" class="container pt-3">
                         <div class="row d-flex g-3">
@@ -705,7 +724,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
 
     `,
-
         atractiva: ` 
     <div id="atractiva" class="container pt-3">
                         <div class="row d-flex g-3">
@@ -1159,13 +1177,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                     </div>    
     `,
-    
     clarita: `
-    <div id="marisco" class="container pt-3">
+    <div id="clarita" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
                             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
-                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-CLARITA.png" alt="imagen marisco"
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-CLARITA.png" alt="imagen clarita"
                                     class="img-fluid">
                             </div>
 
@@ -1197,7 +1214,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <!-- PRIMER CONTENEDOR -->
                         <div class="row d-flex mt-5">
                             <div class="gx-3 gy-3">
-                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-1.png" alt="imagen airevo"
+                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-1.png" alt="imagen clarita"
                                     class="img-fluid b-ra2">
                             </div>
                         </div>
@@ -1215,7 +1232,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="col-lg-4 gx-3 gy-3">
                                 <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-3.png"
-                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                        class="img-fluid b-ra2" alt="Modelo clarita">
                                 </div>
                                 <div class="row mx-auto">
                                     <div class="mt-3 py-5 b-ra text-center" style="background-color: #000;">
@@ -1226,7 +1243,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="col-lg-4 gx-3 gy-3">
                                 <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-4.png"
-                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                        class="img-fluid b-ra2" alt="clarita">
                                 </div>
                                 <div class="row mx-auto">
                                     <div class="mt-3 py-5 b-ra text-center" style="background-color: RGB (241, 235, 227);">
@@ -1278,7 +1295,137 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                         <p class="text-center">Volver arriba</p>
                     </div>
                     </div> 
-    `
+    `,
+    kaprichos: `<div id="kaprichos" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-KAPRICHOS.png" alt="logo Kaprichos"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>KAPRICHOS</h1>
+                                <p>Es una floristería salvadoreña, especializada en regalos auténticos.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-1.png" alt="imagen clarita"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCER CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+                       
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #F4BC4B;">
+                                <p>Floristería ubicada en la Avenida Olímpica, San Salvador, con envíos a todo el país y un catálogo variado de flores y arreglos. La marca busca fidelizar a sus clientes e incorporar a un público joven, ya que se ha perdido la costumbre de regalar flores. Por ello, se desarrolló una campaña en redes sociales y medios tradicionales enfocada en el Día de las Madres. Además, se brindó información sobre el cuidado de las flores para prolongar su duración y generar identificación de los consumidores con los distintos tipos de flores.</p>
+                             </div>
+                        </div>
+
+                        <!-- PENULTIMO CONTENEDOR -->
+                         <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-6.png"
+                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-7.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-8.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-9.png"
+                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-10.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-11.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `,
+
 
 
 
@@ -1300,3 +1447,5 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
         });
     });
 });
+
+
