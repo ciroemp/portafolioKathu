@@ -3,35 +3,58 @@ document.addEventListener("DOMContentLoaded", function () {
     const contenedor = document.getElementById("contenido-dinamico");
     const body = document.body;
     const bodyId = body.id;
-    const fondo2 = document.querySelector(".imaginario-fondo2");
 
-    // ====== 🔹 CAMBIO DE FONDOS ======
+    // EL ELEMENTO QUE EL CÓDIGO DE JQUERY ANTERIOR TRATABA DE CAMBIAR
+    const elementoFondoMenu = document.querySelectorAll(".fondo-menu-cartas");
+    
+    // El div superior que ya habías seleccionado
+    const fondo2 = document.querySelector(".imaginario-fondo2"); 
 
-    // Fondo del body (capa inferior)
+    // ====== 🔹 CAMBIO DE FONDOS (LÓGICA UNIFICADA) ======
+
+    // ====== 🔹 CAMBIO DE FONDOS (LÓGICA UNIFICADA) ======
+
+    // 1. Fondos para el BODY (Capas inferiores)
     const fondosBody = {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
-        emocional: "url('../img/fondos/fondo-emocional.jpg')",
-        anexo: "url('../img/fondos/fondo-anexo.jpg')",
+        conectados: "url('../img/MUNDO-CONECTADOS/FONDO.png')",
+        envolvente: "url('../img/fondos/fondo-anexo.jpg')",
     };
 
-    // Fondo del div superior (.imaginario-fondo2)
+    // 2. Fondos para el DIV SUPERIOR (.imaginario-fondo2)
     const fondosFondo2 = {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
-        emocional: "url('../img/fondos/fondo2-emocional.png')",
-        anexo: "url('../img/fondos/fondo2-anexo.png')",
+        conectados: "url('../img/MUNDO-CONECTADOS/FONDO-CAMINO.png')",
+        envolvente: "url('../img/fondos/fondo2-anexo.png')",
     };
 
-    // Cambiar fondo del body si existe
+    // 3. Fondos para el MENÚ DE CARTAS (AQUÍ UNIMOS TU LÓGICA DE JQUERY)
+   const fondosMenuCartas = {
+        imaginario: "url('../img/TARJETA.png')", // Asegúrate de la ruta correcta
+        conectados: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')",
+        identitario: "url('../img/TARJETA.png')"
+    };
+
+    // Aplicar fondo del Body
     if (fondosBody[bodyId]) {
         body.style.backgroundImage = fondosBody[bodyId];
     }
 
-    // Cambiar fondo del div superior si existe
+    // Aplicar fondo del Div Superior (fondo2)
     if (fondo2 && fondosFondo2[bodyId]) {
         fondo2.style.backgroundImage = fondosFondo2[bodyId];
     }
+    
+    // === 🔹 AQUÍ ESTÁ LA CORRECCIÓN PARA APLICAR A TODOS ===
+    if (elementoFondoMenu.length > 0 && fondosMenuCartas[bodyId]) {
+        // Recorremos la lista de elementos uno por uno
+        elementoFondoMenu.forEach(function(elemento) {
+            elemento.style.backgroundImage = fondosMenuCartas[bodyId];
+        });
+    }
+    
 
     // ====== 🔹 CONTENIDO DINÁMICO ======
 
@@ -321,7 +344,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
     `,
-
         sombrillaAzul: `
     <div id="sombrillaAzul" class="container pt-3">
                     <div class="row d-flex g-3">
@@ -402,7 +424,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
     `,
-
         cuidamosTanto: `
     <div id="cuidamosTanto" class="container pt-3">
                     <div class="row d-flex g-3">
@@ -494,7 +515,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
     `,
-
         escarabajo: `
     <div id="escarabajo" class="container pt-3">
                     <div class="row d-flex g-3">
@@ -593,7 +613,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     `,
-
         muscleMunch: `
     <div id="muscleMunch" class="container pt-3">
                         <div class="row d-flex g-3">
@@ -705,7 +724,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
 
     `,
-
         atractiva: ` 
     <div id="atractiva" class="container pt-3">
                         <div class="row d-flex g-3">
@@ -1021,7 +1039,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div id="marisco" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
-                            <div class="col-lg-4 fondo-tarjeta text-center">
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
                                 <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-MARISCO.png" alt="imagen marisco"
                                     class="img-fluid">
                             </div>
@@ -1074,41 +1092,80 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-3.png"
                                         class="img-fluid b-ra2" alt="Modelo atractiva">
                                 </div>
-                                <div class="row mx-auto">
-                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #ffffff;  color: black;">
-                                        <h6>#FFFFFF</h6>
-                                    </div>
-                                </div>
+                                
                             </div>
                             <div class="col-lg-4 gx-3 gy-3">
                                 <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-4.png"
                                         class="img-fluid b-ra2" alt="diseno sombrilla azul">
                                 </div>
-                                <div class="row mx-auto">
-                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #00253E;">
-                                        <h6>#00253E</h6>
-                                    </div>
-                                </div>
+                                
                             </div>
                             <div class="col-lg-4 gx-3 gy-3">
                                 <div class="row">
                                     <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-5.png"
                                         class="img-fluid b-ra2" alt="diseno sombrilla azul">
-                                </div>
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="row d-flex">
+                            <div class="col-lg-3 col-6 gx-3 gy-1">                    
                                 <div class="row mx-auto">
-                                    <div class="mt-3 py-5 b-ra text-center"
-                                        style="background-color: #B31227;">
-                                        <h6>#B31227</h6>
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #D7BF9A;  color: black;">
+                                        <h6>#D7BF9A</h6>
                                     </div>
                                 </div>
                             </div>
+                            
+                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #EC851F;">
+                                        <h6>#EC851F</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: #8CCCDF;">
+                                        <h6>#8CCCDF</h6>
+                                    </div>
+                                </div>
+                            </div>      
+                            <div class="col-lg-3 col-6 gx-3 gy-1"> 
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: #0E6C8C;">
+                                        <h6>#0E6C8C</h6>
+                                    </div>
+                                </div>
+                            </div>      
                         </div>
 
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
-                            <div class="col p-4 b-ra" style="background-color:  rgb(0, 37, 62);">
-                                <p>Su nombre combina aire” y “evolución”, representando el deseo de avanzar, descubrir y volar hacia nuevas experiencias. El diseño parte del símbolo del ave, elegida por su asociación con el cielo y el sentido de exploración. La marca busca transmitir fuerza, ligereza y confianza, fusionando elementos visuales que evocan el vuelo, el movimiento y la energía de viajar. La tipografía Sans Serif refuerza el estilo moderno y minimalista, aportando claridad y profesionalismo al conjunto visual. El resultado es una marca que inspira movimiento, aventura y elegancia: un símbolo del viaje como transformación.  </p>
+                            <div class="col p-4 b-ra" style="background-color: #0E6C8C;">
+                                <p>MARisco: darle a la ciudad un sabor a mar.” Un rincón playero en el corazón de la ciudad, donde el azul del océano y el aroma del mar se encuentran con la frescura, la energía y el sabor tropical. La marca utiliza una paleta de colores fríos, dominada por los azules del océano, equilibrados con un naranja cálido que transmite energía y sabor. El logotipo integra de forma visual la palabra “MAR” y “isco”, reforzando su identidad: el mar como esencia y los mariscos como producto principal.
+
+                                    El espacio —una casa de cristal rústica en el corazón de la ciudad— invita a disfrutar una pausa entre el ritmo urbano, evocando el sonido de las olas, la brisa y la frescura del mar.</p>
+                             </div>
+                        </div>
+
+                        <!-- PENULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-6.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-7.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
                             </div>
                         </div>
 
@@ -1119,7 +1176,572 @@ document.addEventListener("DOMContentLoaded", function () {
                         <p class="text-center">Volver arriba</p>
                     </div>
                     </div>    
+    `,
+    clarita: `
+    <div id="clarita" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-CLARITA.png" alt="imagen clarita"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>PUPUSERIA CLARITA</h1>
+                                <p>Una marca familiar que une generaciones a través del sabor, el amor y la tradición.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-1.png" alt="imagen clarita"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-3.png"
+                                        class="img-fluid b-ra2" alt="Modelo clarita">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #000;">
+                                        <h6>#000000</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-4.png"
+                                        class="img-fluid b-ra2" alt="clarita">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: RGB (241, 235, 227);">
+                                        <h6>#</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-5.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="mt-3 py-5 b-ra text-center"
+                                        style="background-color: rgb (220, 24, 24);">
+                                        <h6>#B</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #0E6C8C;">
+                                <p>Pupusería Clarita celebra la tradición familiar y el amor por lo hecho a mano. Nacida del legado de la bisabuela Clarita y transmitida de generación en generación, la marca representa el sabor auténtico de las pupusas salvadoreñas y la calidez del hogar. Su estética vintage y alegre rinde homenaje a las pupuserías de antaño, rescatando la esencia del barrio, la cercanía y el valor de lo simple.
+Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa el orgullo de una familia que sigue cocinando con historia.</p>
+                             </div>
+                        </div>
+
+                        <!-- PENULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-6.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-7.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `,
+    kaprichos: `<div id="kaprichos" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-KAPRICHOS.png" alt="logo Kaprichos"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>KAPRICHOS</h1>
+                                <p>Es una floristería salvadoreña, especializada en regalos auténticos.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-1.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCER CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+                       
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #F4BC4B;">
+                                <p>Floristería ubicada en la Avenida Olímpica, San Salvador, con envíos a todo el país y un catálogo variado de flores y arreglos. La marca busca fidelizar a sus clientes e incorporar a un público joven, ya que se ha perdido la costumbre de regalar flores. Por ello, se desarrolló una campaña en redes sociales y medios tradicionales enfocada en el Día de las Madres. Además, se brindó información sobre el cuidado de las flores para prolongar su duración y generar identificación de los consumidores con los distintos tipos de flores.</p>
+                             </div>
+                        </div>
+
+                        <!-- PENULTIMO CONTENEDOR -->
+                         <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-6.png"
+                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-7.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-8.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-9.png"
+                                        class="img-fluid b-ra2" alt="Modelo atractiva">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-10.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4 gx-3 gy-3">
+                                <div class="row">
+                                    <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-11.png"
+                                        class="img-fluid b-ra2" alt="diseno sombrilla azul">
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `,
+    actoHistoricos: `<div id="actos-historicos" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-ACTOHORICOS-AA.png" alt="logo"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>ACTOHÓRICOS ANÓNIMOS (A.A)</h1>
+                                <p>La campaña transmite energía, humor negro y humanidad, conectando con el público joven y amante del teatro independiente.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-1.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-2.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCER CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- CUARTO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-6.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-7.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-8.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+                       
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #202020;">
+                                <p>Estos diseños promocionan la obra “Actohóricos Anónimos (A.A.)”, una propuesta de teatro absurdo y ácido dirigida por César Pineda en el Teatro Nacional de El Salvador.</p>
+                                <p>La campaña busca reflejar el tono intenso, crítico y emocional de la obra mediante una estética teatral contemporánea que combina drama clásico con una identidad moderna. El concepto visual se basa en el contraste rojo y negro, una tipografía expresiva y fotografía en blanco y negro con acentos rojos, resaltando las emociones extremas de los personajes y el espíritu provocador del montaje.</p>
+                             </div>
+                        </div>
+
+                       <!-- PENULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-9.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-10.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `,
+    empiColor: `<div id="empi-color" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-EMPICOLOR.png" alt="logo EMPICOLOR"
+                                    class="img-fluid">
+                            </div>                  
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>EMPICOLOR</h1>
+                                <p>Es un emprendimiento que innova con las empiñadas, que son snack típicos de El Salvador. Se creo logotipo, línea gráfica, fotografías y post para redes sociales.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-1.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                       
+                       <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                       <!-- TERCER CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-6.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-7.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-8.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+                       
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #70D0D3;">
+                                <p>Se crearon posts para redes sociales, una paleta vibrante de rosas, amarillos y morados, fotografía de producto y una línea gráfica moderna y divertida que resalta el color, la textura y la esencia artesanal de las empiñadas.</p>
+                             </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `,
+
+    noCrear: `<div id="empi-color" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-NO-CREAR.png" alt="logo NO CREAR"
+                                    class="img-fluid">
+                            </div>                  
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>NO CREAR</h1>
+                                <p>Es una pausa visual en medio del ruido. Un recordatorio de que crear no siempre es producir, sino permitirte sentir, explorar y fallar sin miedo.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-1.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>        
+
+                       <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>                            
+                        </div>
+
+                        <!-- TERCER CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-6.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-7.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>                            
+                        </div>
+                       
+                        <!-- CUARTO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-8.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-9.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-10.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                         
+                        </div>
+
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #7F03B0;">
+                                <p>Creatividad sin bloqueos es una campaña visual y reflexiva que invita a los creativos a reconectar con el verdadero sentido de crear: disfrutar el proceso, aceptar los errores y reconocer que la creatividad no depende de la productividad, sino del bienestar y la conexión interior. La serie utiliza frases cotidianas, tipografía lúdica y colores vibrantes para romper con la rigidez del “deber ser” creativo. Con una estética pop, optimista y algo retro, cada pieza se convierte en un recordatorio visual de que crear no es una exigencia, es un proceso vital y humano.</p>
+                             </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
     `
+
 
     };
 
@@ -1138,3 +1760,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+

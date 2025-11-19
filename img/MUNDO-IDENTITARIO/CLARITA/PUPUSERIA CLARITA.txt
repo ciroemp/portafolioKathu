@@ -1,0 +1,22 @@
+PUPUSERIA CLARITA
+Una marca familiar que une generaciones a través del sabor, el amor y la tradición.
+
+---
+
+Pupusería Clarita celebra la tradición familiar y el amor por lo hecho a mano. Nacida del legado de la bisabuela Clarita y transmitida de generación en generación, la marca representa el sabor auténtico de las pupusas salvadoreñas y la calidez del hogar. Su estética vintage y alegre rinde homenaje a las pupuserías de antaño, rescatando la esencia del barrio, la cercanía y el valor de lo simple.
+Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa el orgullo de una familia que sigue cocinando con historia.
+
+CUADRO NEGRO
+R: 0
+G: 0
+B: 0
+
+CUADRO BLANCO
+R: 241
+G: 235
+B: 227
+
+CUADRO ROJO
+R: 220
+G: 24
+B: 24

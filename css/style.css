@@ -1,4 +1,8 @@
+
 /* FUCSIA
+
+
+
 
 R: 234
 G: 65
@@ -11,27 +15,45 @@ G: 201
 B: 16  */
 
 
+.navbar-toggler-icon {
+    /* El filtro invert(1) invierte el color (de negro/gris a blanco) */
+    /* Otros ajustes (grayscale, brightness) aseguran que el blanco sea puro */
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Opcional: Si tu barra de navegación es oscura, haz que el botón también sea blanco */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); 
+}
+
 h1 {
   font-size: clamp(1.6rem, 2.5vw, 2.8rem);
+  font-family: "Poppins", sans-serif;
+
 }
 
 h2 {
+  font-family: "Poppins", sans-serif;
   font-size: clamp(1.4rem, 2.2vw, 2.4rem);
 }
 
 h3 {
+  font-family: "Poppins", sans-serif;
   font-size: clamp(1.1rem, 2vw, 1.8rem);
 }
 
 h4 {
+  font-family: "Poppins", sans-serif;
   font-size: clamp(1rem, 1.8vw, 1.5rem);
 }
 
 h5 {
+  font-family: "Poppins", sans-serif;
   font-size: clamp(0.9rem, 1.5vw, 1.3rem);
 }
 
 h6 {
+  font-family: "Poppins", sans-serif;
   font-size: clamp(0.9rem, 1.5vw, 1.3rem);
 }
 
@@ -41,8 +63,7 @@ p {
   font-size: clamp(0.9rem, 1.6vw, 1.1rem);
   color: white;
   text-align: center;
-  margin-bottom: 0;
-
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -373,7 +394,7 @@ h4.text-center {
   padding: 6px 20px;
   padding-bottom: 0;
   font-weight: bold;
-  font-family: sans-serif;
+  
   background: #fff;
   border-radius: 30px;
   color: #000;
@@ -402,7 +423,8 @@ h4.text-center {
   /* 🔹 curva igual que el borde */
   margin: 0 auto;
   display: block;
-  z-index: 2;
+  z-index: 1;
+  border: 3.5px solid black;
 }
 
 /* Parte verde con radio */
@@ -451,7 +473,7 @@ h4.text-center {
 }
 
 .fondo-menu-cartas {
-  background-image: url("../img/TARJETA.png");
+  
 
   background-repeat: no-repeat;
   background-size: cover;
