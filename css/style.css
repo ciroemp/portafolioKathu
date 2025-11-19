@@ -11,6 +11,17 @@ G: 201
 B: 16  */
 
 
+.navbar-toggler-icon {
+    /* El filtro invert(1) invierte el color (de negro/gris a blanco) */
+    /* Otros ajustes (grayscale, brightness) aseguran que el blanco sea puro */
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Opcional: Si tu barra de navegación es oscura, haz que el botón también sea blanco */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); 
+}
+
 h1 {
   font-size: clamp(1.6rem, 2.5vw, 2.8rem);
 }
