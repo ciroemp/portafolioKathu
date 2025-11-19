@@ -1429,7 +1429,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
                             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
-                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-ACTOHORICOS-AA.png" alt="logo Kaprichos"
+                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-ACTOHORICOS-AA.png" alt="logo"
                                     class="img-fluid">
                             </div>
 
@@ -1539,9 +1539,208 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                     </div>
                     </div> 
     `,
+    empiColor: `<div id="empi-color" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-EMPICOLOR.png" alt="logo EMPICOLOR"
+                                    class="img-fluid">
+                            </div>                  
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>EMPICOLOR</h1>
+                                <p>Es un emprendimiento que innova con las empiñadas, que son snack típicos de El Salvador. Se creo logotipo, línea gráfica, fotografías y post para redes sociales.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-1.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                       
+                       <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                       <!-- TERCER CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-6.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-7.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-8.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+                       
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #70D0D3;">
+                                <p>Se crearon posts para redes sociales, una paleta vibrante de rosas, amarillos y morados, fotografía de producto y una línea gráfica moderna y divertida que resalta el color, la textura y la esencia artesanal de las empiñadas.</p>
+                             </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `,
+
+    noCrear: `<div id="empi-color" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-NO-CREAR.png" alt="logo NO CREAR"
+                                    class="img-fluid">
+                            </div>                  
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>NO CREAR</h1>
+                                <p>Es una pausa visual en medio del ruido. Un recordatorio de que crear no siempre es producir, sino permitirte sentir, explorar y fallar sin miedo.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-1.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>        
+
+                       <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>                            
+                        </div>
+
+                        <!-- TERCER CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-6.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-7.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>                            
+                        </div>
+                       
+                        <!-- CUARTO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-8.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-9.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-4 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-10.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                         
+                        </div>
 
 
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #7F03B0;">
+                                <p>Creatividad sin bloqueos es una campaña visual y reflexiva que invita a los creativos a reconectar con el verdadero sentido de crear: disfrutar el proceso, aceptar los errores y reconocer que la creatividad no depende de la productividad, sino del bienestar y la conexión interior. La serie utiliza frases cotidianas, tipografía lúdica y colores vibrantes para romper con la rigidez del “deber ser” creativo. Con una estética pop, optimista y algo retro, cada pieza se convierte en un recordatorio visual de que crear no es una exigencia, es un proceso vital y humano.</p>
+                             </div>
+                        </div>
 
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `
 
 
     };
