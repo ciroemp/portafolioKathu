@@ -1332,7 +1332,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                         <!-- PRIMER CONTENEDOR -->
                         <div class="row d-flex mt-5">
                             <div class="gx-3 gy-3">
-                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-1.png" alt="imagen clarita"
+                                <img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-1.png" alt="imagen"
                                     class="img-fluid b-ra2">
                             </div>
                         </div>
@@ -1416,6 +1416,120 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                                 </div>                                
                             </div>
                         </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `,
+    actoHistoricos: `<div id="actos-historicos" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-CONECTADOS/CARTA-GRANDE-ACTOHORICOS-AA.png" alt="logo Kaprichos"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>ACTOHÓRICOS ANÓNIMOS (A.A)</h1>
+                                <p>La campaña transmite energía, humor negro y humanidad, conectando con el público joven y amante del teatro independiente.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-1.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-2.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCER CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- CUARTO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-6.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-7.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-3 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-8.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+                       
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #202020;">
+                                <p>Estos diseños promocionan la obra “Actohóricos Anónimos (A.A.)”, una propuesta de teatro absurdo y ácido dirigida por César Pineda en el Teatro Nacional de El Salvador.</p>
+                                <p>La campaña busca reflejar el tono intenso, crítico y emocional de la obra mediante una estética teatral contemporánea que combina drama clásico con una identidad moderna. El concepto visual se basa en el contraste rojo y negro, una tipografía expresiva y fotografía en blanco y negro con acentos rojos, resaltando las emociones extremas de los personajes y el espíritu provocador del montaje.</p>
+                             </div>
+                        </div>
+
+                       <!-- PENULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-9.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-10.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
