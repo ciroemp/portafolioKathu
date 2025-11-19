@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
         conectados: "url('../img/MUNDO-CONECTADOS/FONDO.png')",
-        envolvente: "url('../img/fondos/fondo-anexo.jpg')",
+        envolvente: "url('../img/MUNDO-ENVOLVENTE/FONDO.png')",
     };
 
     // 2. Fondos para el DIV SUPERIOR (.imaginario-fondo2)
@@ -27,14 +27,15 @@ document.addEventListener("DOMContentLoaded", function () {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
         conectados: "url('../img/MUNDO-CONECTADOS/FONDO-CAMINO.png')",
-        envolvente: "url('../img/fondos/fondo2-anexo.png')",
+        envolvente: "url('../img/MUNDO-ENVOLVENTE/FONDO-CAMINO.png')",
     };
 
     // 3. Fondos para el MENÚ DE CARTAS (AQUÍ UNIMOS TU LÓGICA DE JQUERY)
    const fondosMenuCartas = {
         imaginario: "url('../img/TARJETA.png')", // Asegúrate de la ruta correcta
         conectados: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')",
-        identitario: "url('../img/TARJETA.png')"
+        identitario: "url('../img/TARJETA.png')",
+        envolvente: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')"
     };
 
     // Aplicar fondo del Body
@@ -1635,7 +1636,6 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                     </div>
                     </div> 
     `,
-
     noCrear: `<div id="empi-color" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
@@ -1732,6 +1732,97 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                                 <p>Creatividad sin bloqueos es una campaña visual y reflexiva que invita a los creativos a reconectar con el verdadero sentido de crear: disfrutar el proceso, aceptar los errores y reconocer que la creatividad no depende de la productividad, sino del bienestar y la conexión interior. La serie utiliza frases cotidianas, tipografía lúdica y colores vibrantes para romper con la rigidez del “deber ser” creativo. Con una estética pop, optimista y algo retro, cada pieza se convierte en un recordatorio visual de que crear no es una exigencia, es un proceso vital y humano.</p>
                              </div>
                         </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `,
+    pClarita: `
+    
+    <div id="clarita" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-CLARITA.png" alt="imagen clarita"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>PUPUSERIA CLARITA</h1>
+                                <p>Empaque está pensado para pedidos para llevar y reforzar la presencia de marca de forma atractiva y funcional.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/PUPUSERIA-CLARITA/pupuseria-1.png" alt="imagen clarita"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/PUPUSERIA-CLARITA/pupuseria-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #DC1818;">
+                                <p>Diseñé un empaque tipo caja con asa para Pupusería Clarita, siguiendo la identidad visual retro de la marca. Utilicé el rojo vibrante, el patrón de cuadros blancos y la mascota “Clarita” para mantener coherencia con sus piezas de redes. El proyecto incluye el dieline (plantilla troquelada) con distribución estratégica del logo, frases y gráficos, y un render 3D del empaque armado para mostrar su volumen real y cómo se ven los elementos aplicados. El empaque está pensado para pedidos para llevar, mejorar la experiencia del cliente y reforzar la presencia de marca de forma atractiva y funcional.</p>
+                             </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/PUPUSERIA-CLARITA/pupuseria-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                                          
+                        
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/PUPUSERIA-CLARITA/pupuseria-4.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/PUPUSERIA-CLARITA/pupuseria-5.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
