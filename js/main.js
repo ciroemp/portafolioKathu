@@ -1831,6 +1831,193 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                         <p class="text-center">Volver arriba</p>
                     </div>
                     </div> 
+    `,
+
+    stitch: ` <div id="stitch" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-ENVOLVENTE/CARTA-STITCH.png" alt="logo mundo stitch"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>STITCH</h1>
+                                <p>Inspirado en el espíritu caótico y adorable de Stitch. Se refuerza la idea de que cada fragmento roto tiene potencial transformador.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/STITCH/STITCH-1.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/STITCH/STITCH-2.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/STITCH/STITCH-3.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/STITCH/STITCH-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/STITCH/STITCH-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #1346BC;">
+                                <p>Explosión de color. Imperfección hermosa. Este mosaico de vidrio es para quienes se animan a crear desde lo roto, lo salvaje y lo distinto. Ideal para arte decorativo, marcos, espejos, mesas o lo que tu lado más creativo quiera transformar.</p> 
+                                <p>El empaque está basado en la idea del caos creativo —“Del caos nace la magia”—, con una explosión de color y un enfoque en la imperfección como belleza. El mosaico de vidrio inspirado en Stitch simboliza resiliencia, inclusión y creatividad, combinando piezas que “no nacieron para encajar, pero juntas crean algo hermoso”.</p>                       
+                             </div>
+                        </div>
+
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
+    `,
+
+    elPoder: `
+    <div id="elPoder" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-ENVOLVENTE/CARTA-EL-PODER-DE-TRES.png" alt="logo el poder de tres"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>EL PODER DE TRES</h1>
+                                <p>Es un pack artesanal de salsas salvadoreñas que celebra la diversidad del picante y la identidad local.</p> 
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/EL-PODER-DE-TRES/EL-PODER-DE-TRES-1.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/EL-PODER-DE-TRES/EL-PODER-DE-TRES-2.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+                        
+                        <!-- TERCERO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/EL-PODER-DE-TRES/EL-PODER-DE-TRES-3.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>                            
+                        </div>
+
+                        <!-- CUARTO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/EL-PODER-DE-TRES/EL-PODER-DE-TRES-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #AB1816;">
+                                <p>Inspirado en los tres chiles —rojo, verde y amarillo— el concepto une sabores, colores y niveles de intensidad para representar un ritual culinario compartido.
+                                Cada salsa encarna una personalidad: Rojo: Fuerte, ahumado, apasionado. Verde: Fresco, equilibrado, versátil. Amarillo: Cítrico, amable, sin picor. Tagline: “Una chispa para cada momento. Mensaje emocional: Tres sabores. Tres niveles. Un solo ritual: disfrutar. Este concepto se formo de la experiencia personal, al ir a restaurantes mexicanos.</p> 
+                             </div>
+                        </div>
+
+                        <!-- PENULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/EL-PODER-DE-TRES/EL-PODER-DE-TRES-5.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>                            
+                        </div>
+
+                        <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/EL-PODER-DE-TRES/EL-PODER-DE-TRES-6.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                    <div class="mt-5">
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                        <p class="text-center">Volver arriba</p>
+                    </div>
+                    </div> 
     `
 
 
