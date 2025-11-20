@@ -464,7 +464,8 @@ h4.text-center {
 
 .tarjeta2 img {
   max-width: 65px;
-  margin-right: .5rem;
+  width: auto;
+  
 } 
 
 .progress {
@@ -612,6 +613,7 @@ h4.text-center {
   }
 }
 
+
 @media (max-width: 600px) {
   .formatoMundos {
     padding-top: 18vw;
@@ -630,7 +632,11 @@ h4.text-center {
     /* opcional, si querés mantener el texto centrado */
   }
 
-
+  .tarjeta2 img {
+  max-width: 30px;
+  width: auto;
+  
+} 
 
   .cont-tarjeta {
     max-width: 100%;
