@@ -1,4 +1,3 @@
-
 /* FUCSIA
 
 
@@ -16,14 +15,14 @@ B: 16  */
 
 
 .navbar-toggler-icon {
-    /* El filtro invert(1) invierte el color (de negro/gris a blanco) */
-    /* Otros ajustes (grayscale, brightness) aseguran que el blanco sea puro */
-    filter: invert(1) grayscale(100%) brightness(200%);
+  /* El filtro invert(1) invierte el color (de negro/gris a blanco) */
+  /* Otros ajustes (grayscale, brightness) aseguran que el blanco sea puro */
+  filter: invert(1) grayscale(100%) brightness(200%);
 }
 
 /* Opcional: Si tu barra de navegación es oscura, haz que el botón también sea blanco */
 .navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.1); 
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 h1 {
@@ -387,76 +386,86 @@ h4.text-center {
 .titulares {
   border: 3.5px solid black;
   text-align: left;
-  width: 60%;
+  width: 50%;
 
   transform: translateY(-50%);
   display: inline-block;
-  padding: 6px 20px;
   padding-bottom: 0;
   font-weight: bold;
-  
-  background: #fff;
+
+  background: #a5ff00 !important;
   border-radius: 30px;
   color: #000;
   position: relative;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-  
-   margin: 0 auto;
+
+  margin: 0 auto;
   display: block;
 
 }
 
 /* Línea negra curvada */
-.titulares::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 30px;
-  /* ajusta según el ancho del verde */
-  width: 3.5px;
-  /* grosor de la franja negra */
-  height: 100%;
-  background: rgb(255, 255, 255);
-  border-radius: 30px solid black;
-  /* 🔹 curva igual que el borde */
-  margin: 0 auto;
-  display: block;
-  z-index: 1;
-  border: 3.5px solid black;
+/* Fondo verde con borde redondeado */
+.progress {
+  background: #a5ff00 !important;
+  /* verde */
+  border-radius: 30px !important;
+  height: 22px;
+  overflow: hidden;
+  /* IMPORTANTE para que el radio funcione */
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
 }
 
-/* Parte verde con radio */
-.titulares::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  right: -8px;
-  width: 40px;
-  height: 100%;
-  background: #a5ff00;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-   margin: 0 auto;
-  display: block;
-  z-index: 3;
+/* Barra blanca encima */
+.progress-bar {
+  background: #ffffff !important;
+  /* blanca */
+  border-radius: 30px !important;
+  /* mismo radio => corte curvo */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.titulares .progress-bar {
+  background: #ffffff !important;
+  /* blanca */
+  border-radius: 30px !important;
+  /* mismo radio => corte curvo */
+  box-shadow: 8px 0px 18px rgba(0, 0, 0, 1); 
+  padding: 0;
+  margin: 0;
+  outline: 3.5px solid rgb(0, 0, 0);
+  outline-offset: .1px; 
 }
 
 .herramientas {
   border: 3px solid #AF306C;
   border-radius: 20px;
-  padding: 1%;
-  margin: 0px, 5px, 0px, 5px;
+  display: flex;
+  align-items: center; /* alineación vertical */
+  justify-content: center; /* opcional: alineación horizontal */
+  
 
 }
 
-.herramientas h6 {
-  color: aliceblue;
+.herramientas p {
+  margin: .25rem;        /* elimina espacio extra */
+  padding: 0 1%;      /* asegura que el texto quede al centro exacto */
+  line-height: 1.2; /* opcional: evita textos "altos" */
+}
+
+.tarjeta2 h5 {
+  
   text-align: center;
+  margin: .5rem;        /* elimina espacio extra */
+       /* asegura que el texto quede al centro exacto */
+  line-height: 1.2; 
 }
+
+.tarjeta2 img {
+  max-width: 65px;
+  margin-right: .5rem;
+} 
 
 .progress {
   background-color: #a7df22;
@@ -473,7 +482,7 @@ h4.text-center {
 }
 
 .fondo-menu-cartas {
-  
+
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -579,7 +588,8 @@ h4.text-center {
 
 /* Fondo semitransparente para mejorar legibilidad */
 .bloque-texto-imaginario {
-  background: rgba(0, 0, 0, 0.25); /* fondo negro con transparencia */
+  background: rgba(0, 0, 0, 0.25);
+  /* fondo negro con transparencia */
   border-radius: 20px;
   padding: 1rem, .5rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
@@ -597,8 +607,8 @@ h4.text-center {
 
 @media (max-width: 800px) {
   .formatoMundos {
-  max-width: 70vw;
-    
+    max-width: 70vw;
+
   }
 }
 
@@ -620,7 +630,7 @@ h4.text-center {
     /* opcional, si querés mantener el texto centrado */
   }
 
-  
+
 
   .cont-tarjeta {
     max-width: 100%;
