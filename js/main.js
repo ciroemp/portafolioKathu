@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 amor: radiante, libre y contagioso. 
 
                             </p>
-                            <p>Donde pasa Jupilove, florecen los buenos
+                            <p>Donde pasa Jipilove, florecen los buenos
                                 sentimientos y todo vuelve a brillar.</p>
                         </div>
                     </div>
@@ -1247,8 +1247,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                         class="img-fluid b-ra2" alt="clarita">
                                 </div>
                                 <div class="row mx-auto">
-                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: RGB (241, 235, 227);">
-                                        <h6>#</h6>
+                                    <div class="mt-3 py-5 b-ra text-center" style="background-color: #F1EBE3; color: #000;">
+                                        <h6>#F1EBE3</h6>
                                     </div>
                                 </div>
                             </div>
@@ -1259,15 +1259,15 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </div>
                                 <div class="row mx-auto">
                                     <div class="mt-3 py-5 b-ra text-center"
-                                        style="background-color: rgb (220, 24, 24);">
-                                        <h6>#B</h6>
+                                        style="background-color: #DC1818;">
+                                        <h6>#DC1818</h6>
                                     </div>
                                 </div>
                             </div>
 
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
-                            <div class="col p-4 b-ra" style="background-color: #0E6C8C;">
+                            <div class="col p-4 b-ra" style="background-color: #DC1818;">
                                 <p>Pupusería Clarita celebra la tradición familiar y el amor por lo hecho a mano. Nacida del legado de la bisabuela Clarita y transmitida de generación en generación, la marca representa el sabor auténtico de las pupusas salvadoreñas y la calidez del hogar. Su estética vintage y alegre rinde homenaje a las pupuserías de antaño, rescatando la esencia del barrio, la cercanía y el valor de lo simple.
 Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa el orgullo de una familia que sigue cocinando con historia.</p>
                              </div>
@@ -2017,6 +2017,96 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <p class="text-center">Volver arriba</p>
                     </div>
+                    </div> 
+    `,
+
+    cclarita: `<div id="clarita-c" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-CLARITA.png" alt="imagen clarita"
+                                    class="img-fluid">
+                            </div>                  
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>PUPUSERIA CLARITA</h1>
+                                <p>Los diseños se hicieron con una estética retro-vintage, inspirada en la gráfica popular de mediados del siglo XX.</p>
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/PUPUSERIA-CLARITA/PUPUSAERIA-1.png" alt="imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                       
+                       <!-- SEGUNDO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/PUPUSERIA-CLARITA/PUPUSAERIA-2.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/PUPUSERIA-CLARITA/PUPUSAERIA-3.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                       <!-- TERCER CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/PUPUSERIA-CLARITA/PUPUSAERIA-4.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/PUPUSERIA-CLARITA/PUPUSAERIA-5.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+                       
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #F1EBE3;">
+                                <p style="color: #000;">Los elementos fueron creados con una estética retro-vintage, usando un rojo vibrante, tipografías gruesas y cursivas, y un patrón de cuadros blancos tipo diner. La mascota Clarita, un frasco caricaturizado con espátula, se usa como ícono principal para dar personalidad y tradición. Cada pieza sigue la misma estructura:</p>
+                                <p style="color: #000;">Logo arriba, manteniendo la identidad clásica. Frase principal potente (“Hechas con amor”, “En Clarita no hay secretos”). Foto de pupusas reales, mostrando textura y abundancia. Mascota Clarita acompañando el mensaje. Información secundaria (precios, dirección, teléfono) cuando aplica. La paleta se mantiene constante: rojo, blanco y negro, creando una campaña sólida, reconocible y tradicional. Los diseños se adaptan a diferentes formatos (feed, stories, mupies, banners) sin perder coherencia. El tono de comunicación es cálido, nostálgico y auténtico, resaltando que las pupusas son 100% originales y hechas con amor.</p>
+                             </div>
+                        </div>
+
+                         <!-- ULTIMO CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-CONECTADOS/PUPUSERIA-CLARITA/PUPUSAERIA-6.png" alt="modelo imagen"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                        <div class="mt-5">
+                             <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+
+                                <p class="text-center">Volver arriba</p>
+                         </div>
                     </div> 
     `
 
