@@ -605,6 +605,11 @@ h4.text-center {
   color: #fff;
 }
 
+.footer img {
+  min-width: 18vw;
+  max-width: 20vw;
+}
+
 
 @media (max-width: 800px) {
   .formatoMundos {

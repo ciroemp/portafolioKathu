@@ -125,14 +125,6 @@ document.addEventListener("DOMContentLoaded", function () {
                             <p>Este no es un cuento para dormir… es un relato para despertar.</p>
                         </div>
                     </div>
-                    
-
-                    <!-- LOGO FINAL -->
-                    <div class="row text-center my-auto">
-                        <div class="col gx-3 gy-3">
-                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/LOGO-pinocho.png" alt="Logo Pinocho" class="img-fluid">
-                        </div>
-                    </div>
                                 
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
@@ -213,13 +205,6 @@ document.addEventListener("DOMContentLoaded", function () {
                             </p>
                             <p>Donde pasa Jipilove, florecen los buenos
                                 sentimientos y todo vuelve a brillar.</p>
-                        </div>
-                    </div>
-
-                    <!-- LOGO FINAL -->
-                    <div class="row text-center my-auto">
-                        <div class="col gx-3 gy-3">
-                            <img src="../img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-6.png" alt="Logo JIPILOVE" class="img-fluid">
                         </div>
                     </div>
 
@@ -331,13 +316,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                     </div>
 
-                    <!-- LOGO FINAL -->
-                    <div class="row text-center my-3">
-                        <div class="col">
-                            <img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-13.png" alt="Logo ARIKA" class="img-fluid">
-                        </div>
-                    </div>
-
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
                         <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
@@ -407,14 +385,6 @@ document.addEventListener("DOMContentLoaded", function () {
                                 pelota de fútbol y chancla.                             </p>
                             <p>Es un accesorio versátil que celebra la cultura popular y la
                                 calidez de las playas salvadoreñas.</p>
-                        </div>
-                    </div>
-
-                    <!-- LOGO FINAL -->
-                    <div class="row text-center my-3">
-                        <div class="col">
-                            <img src="../img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-4.png" alt="Logo sombrilla azul"
-                                class="img-fluid">
                         </div>
                     </div>
 
@@ -500,14 +470,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                     </div>
 
-                    <!-- LOGO FINAL -->
-                    <div class="row text-center my-4">
-                        <div class="col">
-                            <img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-7.png" alt="Logo Cuidamos Tanto"
-                                class="img-fluid">
-                        </div>
-                    </div>
-                    
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
                         <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
