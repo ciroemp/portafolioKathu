@@ -1,20 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // ==========================================
+    // 1. LÓGICA DE TU MENÚ Y FONDOS (Tu código original)
+    // ==========================================
     const botones = document.querySelectorAll(".menu-carta");
     const contenedor = document.getElementById("contenido-dinamico");
     const body = document.body;
     const bodyId = body.id;
-
-    // EL ELEMENTO QUE EL CÓDIGO DE JQUERY ANTERIOR TRATABA DE CAMBIAR
-    const elementoFondoMenu = document.querySelectorAll(".fondo-menu-cartas");
     
-    // El div superior que ya habías seleccionado
+    // Elementos a cambiar fondo
+    const elementoFondoMenu = document.querySelectorAll(".fondo-menu-cartas");
     const fondo2 = document.querySelector(".imaginario-fondo2"); 
 
-    // ====== 🔹 CAMBIO DE FONDOS (LÓGICA UNIFICADA) ======
-
-    // ====== 🔹 CAMBIO DE FONDOS (LÓGICA UNIFICADA) ======
-
-    // 1. Fondos para el BODY (Capas inferiores)
+    // Definición de fondos
     const fondosBody = {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
@@ -22,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
         envolvente: "url('../img/MUNDO-ENVOLVENTE/FONDO.png')",
     };
 
-    // 2. Fondos para el DIV SUPERIOR (.imaginario-fondo2)
     const fondosFondo2 = {
         imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
         identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
@@ -30,32 +26,20 @@ document.addEventListener("DOMContentLoaded", function () {
         envolvente: "url('../img/MUNDO-ENVOLVENTE/FONDO-CAMINO.png')",
     };
 
-    // 3. Fondos para el MENÚ DE CARTAS (AQUÍ UNIMOS TU LÓGICA DE JQUERY)
-   const fondosMenuCartas = {
-        imaginario: "url('../img/TARJETA.png')", // Asegúrate de la ruta correcta
+    const fondosMenuCartas = {
+        imaginario: "url('../img/TARJETA.png')",
         conectados: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')",
         identitario: "url('../img/TARJETA.png')",
         envolvente: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')"
     };
 
-    // Aplicar fondo del Body
-    if (fondosBody[bodyId]) {
-        body.style.backgroundImage = fondosBody[bodyId];
-    }
-
-    // Aplicar fondo del Div Superior (fondo2)
-    if (fondo2 && fondosFondo2[bodyId]) {
-        fondo2.style.backgroundImage = fondosFondo2[bodyId];
-    }
+    // Aplicar fondos iniciales
+    if (fondosBody[bodyId]) body.style.backgroundImage = fondosBody[bodyId];
+    if (fondo2 && fondosFondo2[bodyId]) fondo2.style.backgroundImage = fondosFondo2[bodyId];
     
-    // === 🔹 AQUÍ ESTÁ LA CORRECCIÓN PARA APLICAR A TODOS ===
     if (elementoFondoMenu.length > 0 && fondosMenuCartas[bodyId]) {
-        // Recorremos la lista de elementos uno por uno
-        elementoFondoMenu.forEach(function(elemento) {
-            elemento.style.backgroundImage = fondosMenuCartas[bodyId];
-        });
+        elementoFondoMenu.forEach(elem => elem.style.backgroundImage = fondosMenuCartas[bodyId]);
     }
-    
 
     // ====== 🔹 CONTENIDO DINÁMICO ======
 
@@ -2077,19 +2061,56 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
     };
 
     // ====== 🔹 EVENTOS DE LOS BOTONES ======
-
+// Eventos Click de Botones
     botones.forEach((boton) => {
         boton.addEventListener("click", () => {
-            // Cambiar estado activo
             botones.forEach((b) => b.classList.remove("activo"));
             boton.classList.add("activo");
-
+            
             // Cargar contenido
             const proyecto = boton.getAttribute("data-proyecto");
-            contenedor.innerHTML =
-                contenido[proyecto] || "<p>Contenido no disponible.</p>";
+            // Nota: Aquí uso 'window.contenido' si definiste la variable fuera, 
+            // o asegúrate de pegar tu objeto 'contenido' dentro de este archivo.
+            
+            // Para este ejemplo, usaré el objeto 'contenido' que definimos arriba.
+            // Si copiaste tu código anterior, asegúrate de que la variable 'contenido' esté accesible.
+            if(typeof contenido !== 'undefined' && contenido[proyecto]){
+                 contenedor.innerHTML = contenido[proyecto];
+            } else {
+                 // Fallback por si no copiaste el objeto contenido gigante
+                 console.log("Falta el objeto contenido para: " + proyecto);
+            }
         });
     });
 });
 
+// ==========================================
+// 3. LÓGICA DE CARGA (Aquí está la magia para arreglar la animación)
+// ==========================================
 
+// Usamos 'load' en lugar de 'DOMContentLoaded' porque 'load' espera a las IMÁGENES.
+window.addEventListener("load", function () {
+    const loader = document.getElementById("pantalla-carga");
+    const sitio = document.getElementById("sitio-web"); // O el body si no usaste el wrapper
+
+    if (loader) {
+        // 1. Desvanecer el loader
+        loader.style.opacity = "0";
+
+        // 2. Esperar a que termine la transición css (0.5s) y borrarlo
+        setTimeout(function () {
+            loader.style.display = "none";
+            
+            // 3. Mostrar el sitio web suavemente
+            if(sitio) {
+                sitio.style.opacity = "1";
+            }
+
+            // 4. ACTIVAR ANIMACIONES CSS
+            // Si tus animaciones usan una librería como Animate.css o WOW.js,
+            // este es el momento de inicializarlas para que no se vean cortadas.
+            // Ejemplo: document.body.classList.remove('cargando');
+            
+        }, 500); // 500ms coincide con la transición CSS
+    }
+});
