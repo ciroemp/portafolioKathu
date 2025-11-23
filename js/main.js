@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -374,7 +374,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -456,7 +456,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -552,7 +552,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -664,7 +664,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -769,7 +769,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -873,7 +873,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -976,7 +976,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -1119,7 +1119,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -1238,7 +1238,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -1367,7 +1367,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -1481,7 +1481,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -1577,7 +1577,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -1682,7 +1682,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -1773,7 +1773,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -1860,7 +1860,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -1960,7 +1960,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                     <div class="mt-5">
-                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                        <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                         <p class="text-center">Volver arriba</p>
                     </div>
@@ -2050,7 +2050,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- FECLA QUE ENVIA A SECCION CARTAS-->
                         <div class="mt-5">
-                             <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra"></a>
+                             <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
                                 <p class="text-center">Volver arriba</p>
                          </div>
