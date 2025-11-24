@@ -1,51 +1,54 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // ==========================================
-    // 1. LÓGICA DE TU MENÚ Y FONDOS (Tu código original)
-    // ==========================================
-    const botones = document.querySelectorAll(".menu-carta");
-    const contenedor = document.getElementById("contenido-dinamico");
-    const body = document.body;
-    const bodyId = body.id;
-    
-    // Elementos a cambiar fondo
-    const elementoFondoMenu = document.querySelectorAll(".fondo-menu-cartas");
-    const fondo2 = document.querySelector(".imaginario-fondo2"); 
+  // ==========================================
+  // 1. LÓGICA DE TU MENÚ Y FONDOS (Tu código original)
+  // ==========================================
+  const botones = document.querySelectorAll(".menu-carta");
+  const contenedor = document.getElementById("contenido-dinamico");
+  const body = document.body;
+  const bodyId = body.id;
 
-    // Definición de fondos
-    const fondosBody = {
-        imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
-        identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
-        conectados: "url('../img/MUNDO-CONECTADOS/FONDO.png')",
-        envolvente: "url('../img/MUNDO-ENVOLVENTE/FONDO.png')",
-    };
+  // Elementos a cambiar fondo
+  const elementoFondoMenu = document.querySelectorAll(".fondo-menu-cartas");
+  const fondo2 = document.querySelector(".imaginario-fondo2");
 
-    const fondosFondo2 = {
-        imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
-        identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
-        conectados: "url('../img/MUNDO-CONECTADOS/FONDO-CAMINO.png')",
-        envolvente: "url('../img/MUNDO-ENVOLVENTE/FONDO-CAMINO.png')",
-    };
+  // Definición de fondos
+  const fondosBody = {
+    imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-1.png')",
+    identitario: "url('../img/MUNDO-IDENTITARIO/FONDO.png')",
+    conectados: "url('../img/MUNDO-CONECTADOS/FONDO.png')",
+    envolvente: "url('../img/MUNDO-ENVOLVENTE/FONDO.png')",
+  };
 
-    const fondosMenuCartas = {
-        imaginario: "url('../img/TARJETA.png')",
-        conectados: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')",
-        identitario: "url('../img/TARJETA.png')",
-        envolvente: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')"
-    };
+  const fondosFondo2 = {
+    imaginario: "url('../img/MUNDO-IMAGINARIO/imaginario-fondo-2-camino.png')",
+    identitario: "url('../img/MUNDO-IDENTITARIO/FONDO-CAMINO.png')",
+    conectados: "url('../img/MUNDO-CONECTADOS/FONDO-CAMINO.png')",
+    envolvente: "url('../img/MUNDO-ENVOLVENTE/FONDO-CAMINO.png')",
+  };
 
-    // Aplicar fondos iniciales
-    if (fondosBody[bodyId]) body.style.backgroundImage = fondosBody[bodyId];
-    if (fondo2 && fondosFondo2[bodyId]) fondo2.style.backgroundImage = fondosFondo2[bodyId];
-    
-    if (elementoFondoMenu.length > 0 && fondosMenuCartas[bodyId]) {
-        elementoFondoMenu.forEach(elem => elem.style.backgroundImage = fondosMenuCartas[bodyId]);
-    }
+  const fondosMenuCartas = {
+    imaginario: "url('../img/TARJETA.png')",
+    conectados: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')",
+    identitario: "url('../img/TARJETA.png')",
+    envolvente: "url('../img/MUNDO-CONECTADOS/CARTA-GRANDE.png')",
+  };
 
-    // ====== 🔹 CONTENIDO DINÁMICO ======
+  // Aplicar fondos iniciales
+  if (fondosBody[bodyId]) body.style.backgroundImage = fondosBody[bodyId];
+  if (fondo2 && fondosFondo2[bodyId])
+    fondo2.style.backgroundImage = fondosFondo2[bodyId];
 
-    // Contenidos personalizados por proyecto
-    const contenido = {
-        pinocho: `
+  if (elementoFondoMenu.length > 0 && fondosMenuCartas[bodyId]) {
+    elementoFondoMenu.forEach(
+      (elem) => (elem.style.backgroundImage = fondosMenuCartas[bodyId])
+    );
+  }
+
+  // ====== 🔹 CONTENIDO DINÁMICO ======
+
+  // Contenidos personalizados por proyecto
+  const contenido = {
+    pinocho: `
       <div id="pinocho" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -56,8 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <!-- Texto -->
                         <div class="col-md-6 pt-4">
                             <h1>PINOCHO</h1>
-                            <p>Una reinterpretación oscura del clásico. Los hilos ya no sostienen, sino que revelan el
-                                peso del control y la identidad.</p>
+                            <p>La obra presenta una reinterpretación oscura de Pinocho. En lugar del clásico cuento infantil, muestra un mundo tétrico donde la idea de que un muñeco pueda convertirse en un niño real resulta inquietante.</p>
                             <div class="container d-flex align-items-end justify-content-start p-0">
                                 <div class="p-0">
                                     <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid" style="max-width: 60px;">
@@ -100,13 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- TEXTO -->
                     <div class="row my-auto mx-auto gy-3">
                         <div class="col p-4 b-ra" style="background-color: rgb(58,57,55);">
-                            <p>En esta reinterpretación oscura del clásico, Pinocho ya no es solo un muñeco de madera
-                                que sueña con ser humano. Detrás de los hilos que lo sostienen se esconde un relato
-                                inquietante sobre el control, la manipulación y los rincones más extraños de la mente.
-                                Las páginas revelan un mundo donde lo infantil se mezcla con lo perturbador, y la línea
-                                entre la fantasía y la locura se vuelve cada vez más delgada.
-                            </p>
-                            <p>Este no es un cuento para dormir… es un relato para despertar.</p>
+                            <p>He recreado a Pinocho en un ambiente tétrico para cuestionar la idea de que un muñeco de madera pueda convertirse en un niño real. Mi intención es reflejar que su creador podría tener trastornos de personalidad, y que esta fantasía nace desde una mente fragmentada. Utilizo tonalidades grises y apagadas en el entorno para acentuar la atmósfera inquietante, mientras que Pinocho destaca con colores vibrantes, simbolizando la obsesión y el contraste entre realidad e ilusión.</p>
                         </div>
                     </div>
                                 
@@ -119,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 </div>
     `,
-        jipilove: `      
+    jipilove: `      
                 <div id="jipilove" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -130,8 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <!-- Texto -->
                         <div class="col-md-6 pt-4">
                             <h1>JIPILOVE</h1>
-                            <p>Una niña con un don natural: sanar con plantas y música. Su historia florece entre
-                                serenidad y empatía.</p>
+                            <p>Es una niña jipi de 12 años que cura con plantas y música. Su misión es sanar y traer calma al mundo.</p>
                             <div class="container d-flex align-items-end justify-content-start p-0">
                                 <div class="p-0 d-flex g-3">
                                     <div class="container ps-0">
@@ -181,15 +176,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <!-- TEXTO -->
                     <div class="row my-auto mx-auto gy-3">
                         <div class="col p-4 b-ra" style="background-color: rgb(226,11,119);">
-                            <p>Jipilove nació del color y la música. Su energía fluye en ondas florales que sanan
-                                corazones y llenan el aire de calma. Con su pandereta en forma de flor, convierte cada
-                                sonido en una vibración luminosa que transforma tristeza en alegría. Su poder es el
-                                amor: radiante, libre y contagioso. 
-
-                            </p>
-                            <p>Donde pasa Jipilove, florecen los buenos
-                                sentimientos y todo vuelve a brillar.</p>
-                        </div>
+                            <p>Jipilove es una niña de 12 años que representa paz, amor y buena vibra. Su mundo combina colores psicodélicos, música y naturaleza. Es pacífica, dulce y empática: la ira la asusta, pero la tristeza ajena la mueve a ayudar.</p>
+                            <p>Físicamente es delgada, de 1.40 m, con cabello largo castaño, ojos oscuros y piel clara. Lleva ropa jipi colorida, flores en el pelo, lentes redondos y accesorios llenos de símbolos de paz.</p>
+                            <p>Tiene un don especial: cura el cuerpo con plantas y el alma con música. Toca la guitarra y su pandereta con forma de flor, cuyas melodías transmiten calma y buenas vibras a quien las escucha.</p>
+                            <p>Jipilove existe para sanar, acompañar y llenar el mundo de amor.</p> 
+                            </div>
                     </div>
 
                     <!-- FECLA QUE ENVIA A SECCION CARTAS-->
@@ -200,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
     `,
-        arika: `
+    arika: `
       <div id="arika" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -252,6 +243,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                     </div>
 
+                    <!-- TEXTO -->
+                    <div class="row my-auto mx-auto gy-3">
+                        <div class="col p-4 b-ra" style="text-shadow: none; background-color: rgb(255,255,255);">
+                            <p id="arikaP">Arika encuentra dos fresas gigantes, pero no quiere compartirlas con su hermano. Después de insistirle varias veces, cuando finalmente decide darle una, descubre que se han convertido en carbón por culpa del Hada del Egoísmo. Su hermano, para consolarla, comparte su galleta y le enseña que lo más valioso es aprender a compartir.</p>
+                        </div>
+                    </div>
+
                     <!-- CUARTO CONTENEDOR -->
                     <div class="row my-auto d-flex">
                         <div class="col-md-6 gx-3 gy-3">
@@ -291,7 +289,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     <!-- TEXTO -->
                     <div class="row my-auto mx-auto gy-3">
-                        <div class="col p-4 b-ra" style="background-color: rgb(255,255,255);">
+                        <div class="col p-4 b-ra" style="text-shadow: none; background-color: rgb(255,255,255);">
                             <p id="arikaP">Esta historia nace del valor de compartir, algo que me costó aprender de niña. Los
                                 protagonistas, dos borreguitos Aries, representan a mi hermano y a mí, y reviven
                                 nuestras experiencias de infancia con humor y ternura. Con un estilo kawaii y un toque
@@ -308,7 +306,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
     `,
-        sombrillaAzul: `
+    sombrillaAzul: `
     <div id="sombrillaAzul" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -380,7 +378,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
     `,
-        cuidamosTanto: `
+    cuidamosTanto: `
     <div id="cuidamosTanto" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -463,7 +461,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
 
     `,
-        escarabajo: `
+    escarabajo: `
     <div id="escarabajo" class="container pt-3">
                     <div class="row d-flex g-3">
                         <!-- Imagen grande -->
@@ -561,7 +559,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     `,
-        muscleMunch: `
+    muscleMunch: `
     <div id="muscleMunch" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
@@ -672,7 +670,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
 
     `,
-        atractiva: ` 
+    atractiva: ` 
     <div id="atractiva" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
@@ -776,7 +774,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
     
     `,
-        marti: ` 
+    marti: ` 
         <div id="marti" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
@@ -879,7 +877,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                     </div>
     `,
-        airevo: `
+    airevo: `
                 <div id="airevo" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
@@ -970,7 +968,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
                             <div class="col p-4 b-ra" style="background-color:  rgb(0, 37, 62);">
-                                <p>Su nombre combina aire” y “evolución”, representando el deseo de avanzar, descubrir y volar hacia nuevas experiencias. El diseño parte del símbolo del ave, elegida por su asociación con el cielo y el sentido de exploración. La marca busca transmitir fuerza, ligereza y confianza, fusionando elementos visuales que evocan el vuelo, el movimiento y la energía de viajar. La tipografía Sans Serif refuerza el estilo moderno y minimalista, aportando claridad y profesionalismo al conjunto visual. El resultado es una marca que inspira movimiento, aventura y elegancia: un símbolo del viaje como transformación.  </p>
+                                <p>Su nombre combina "aire” y “evolución”, representando el deseo de avanzar, descubrir y volar hacia nuevas experiencias. El diseño parte del símbolo del ave, elegida por su asociación con el cielo y el sentido de exploración. La marca busca transmitir fuerza, ligereza y confianza, fusionando elementos visuales que evocan el vuelo, el movimiento y la energía de viajar. La tipografía Sans Serif refuerza el estilo moderno y minimalista, aportando claridad y profesionalismo al conjunto visual. El resultado es una marca que inspira movimiento, aventura y elegancia: un símbolo del viaje como transformación.  </p>
                             </div>
                         </div>
 
@@ -983,7 +981,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
             
     `,
-        marisco: `
+    marisco: `
                 <div id="marisco" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
@@ -1095,7 +1093,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
                             <div class="col p-4 b-ra" style="background-color: #0E6C8C;">
-                                <p>MARisco: darle a la ciudad un sabor a mar.” Un rincón playero en el corazón de la ciudad, donde el azul del océano y el aroma del mar se encuentran con la frescura, la energía y el sabor tropical. La marca utiliza una paleta de colores fríos, dominada por los azules del océano, equilibrados con un naranja cálido que transmite energía y sabor. El logotipo integra de forma visual la palabra “MAR” y “isco”, reforzando su identidad: el mar como esencia y los mariscos como producto principal.
+                                <p>MARISCO: darle a la ciudad un sabor a mar.” Un rincón playero en el corazón de la ciudad, donde el azul del océano y el aroma del mar se encuentran con la frescura, la energía y el sabor tropical. La marca utiliza una paleta de colores fríos, dominada por los azules del océano, equilibrados con un naranja cálido que transmite energía y sabor. El logotipo integra de forma visual la palabra “MAR” y “isco”, reforzando su identidad: el mar como esencia y los mariscos como producto principal.
 
                                     El espacio —una casa de cristal rústica en el corazón de la ciudad— invita a disfrutar una pausa entre el ritmo urbano, evocando el sonido de las olas, la brisa y la frescura del mar.</p>
                              </div>
@@ -1497,7 +1495,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                             <!-- Texto -->
                             <div class="col-lg-6 pt-4">
                                 <h1>EMPICOLOR</h1>
-                                <p>Es un emprendimiento que innova con las empiñadas, que son snack típicos de El Salvador. Se creo logotipo, línea gráfica, fotografías y post para redes sociales.</p>
+                                <p>reinventa las tradicionales empiñadas, uno de los snacks más representativos de El Salvador. La marca busca modernizar este producto artesanal incorporando colores vibrantes, sabores innovadores y una identidad visual fresca y divertida.</p>
                                 <div class="container d-flex align-items-end justify-content-start p-0">
                                     <div class="p-0 d-flex g-3">
                                         <div class="container ps-0">
@@ -1571,7 +1569,8 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
                             <div class="col p-4 b-ra" style="background-color: #70D0D3;">
-                                <p>Se crearon posts para redes sociales, una paleta vibrante de rosas, amarillos y morados, fotografía de producto y una línea gráfica moderna y divertida que resalta el color, la textura y la esencia artesanal de las empiñadas.</p>
+                                <p>Para el proyecto se desarrolló el logotipo, la línea gráfica, fotografías de producto y contenidos para redes sociales. La paleta cromática —compuesta por rosas, amarillos y morados intensos— transmite energía, alegría y modernidad, resaltando la textura y el carácter artesanal de las empiñadas.</p>
+                                <p>Además de su identidad visual, EMPICOLOR introduce un toque innovador al crear una empiñada de Nutella, un sabor especial que combina tradición con una propuesta más contemporánea.</p>
                              </div>
                         </div>
 
@@ -1701,7 +1700,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                             <!-- Texto -->
                             <div class="col-lg-6 pt-4">
                                 <h1>PUPUSERIA CLARITA</h1>
-                                <p>Empaque está pensado para pedidos para llevar y reforzar la presencia de marca de forma atractiva y funcional.</p>
+                                <p>El empaque fue creado para acompañar los pedidos para llevar, destacando la identidad de la marca mientras ofrece una presentación práctica y visualmente atractiva.</p>
                                 <div class="container d-flex align-items-end justify-content-start p-0">
                                     <div class="p-0 d-flex g-3">
                                         <div class="container ps-0">
@@ -1879,7 +1878,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                             <!-- Texto -->
                             <div class="col-lg-6 pt-4">
                                 <h1>EL PODER DE TRES</h1>
-                                <p>Es un pack artesanal de salsas salvadoreñas que celebra la diversidad del picante y la identidad local.</p> 
+                                <p>El diseño convierte el acto de comer chile en un viaje sensorial, donde cada color refleja un nivel distinto de poder e intensidad.</p> 
                                 <div class="container d-flex align-items-end justify-content-start p-0">
                                     <div class="p-0 d-flex g-3">
                                         <div class="container ps-0">
@@ -1936,8 +1935,9 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
                             <div class="col p-4 b-ra" style="background-color: #AB1816;">
-                                <p>Inspirado en los tres chiles —rojo, verde y amarillo— el concepto une sabores, colores y niveles de intensidad para representar un ritual culinario compartido.
-                                Cada salsa encarna una personalidad: Rojo: Fuerte, ahumado, apasionado. Verde: Fresco, equilibrado, versátil. Amarillo: Cítrico, amable, sin picor. Tagline: “Una chispa para cada momento. Mensaje emocional: Tres sabores. Tres niveles. Un solo ritual: disfrutar. Este concepto se formo de la experiencia personal, al ir a restaurantes mexicanos.</p> 
+                                <p>El concepto inicia a partir de mi gusto personal por el chile. A partir de esa palabra exploré sus características principales, y de ellas surgió el nombre del empaque, conectándolo con la emoción que experimento cada vez que voy a restaurantes mexicanos.</p> 
+                                <p>“El poder de tres” representa una trilogía de sabores que despiertan los sentidos a través del color, el picor y la personalidad. Cada chile —rojo, verde y amarillo— encarna una fuerza distinta: El rojo es el fuego intenso, El verde es el equilibrio vibrante y El amarillo es la dulzura amable.</p>
+                                <p>El diseño se inspira en los superpoderes, como si cada sabor tuviera su propia identidad heroica. El empaque transforma la experiencia de comer chile en un viaje sensorial con niveles definidos de intensidad, como elegir tu propio nivel de poder.</p>
                              </div>
                         </div>
 
@@ -1977,7 +1977,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                             <!-- Texto -->
                             <div class="col-lg-6 pt-4">
                                 <h1>PUPUSERIA CLARITA</h1>
-                                <p>Los diseños se hicieron con una estética retro-vintage, inspirada en la gráfica popular de mediados del siglo XX.</p>
+                                <p>Identidad retro-vintage coherente con fotos reales, mascota icónica y una paleta roja clásica para reforzar la tradición y personalidad de Pupusería Clarita.</p>
                                 <div class="container d-flex align-items-end justify-content-start p-0">
                                     <div class="p-0 d-flex g-3">
                                         <div class="container ps-0">
@@ -2111,7 +2111,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
-                            <div class="col p-4 b-ra" style="background-color: #97D7F7;">
+                                <div class="col p-4 b-ra" style="background-color: #9064AE;">
                                 <p>El concepto de este trabajo se basa en el álbum YHLQMDLG (Yo Hago Lo Que Me Da la Gana) de Bad Bunny. La idea central del álbum gira en torno a qué hacer cuando estás triste o te han roto el corazón; la respuesta es escucharlo a él. A lo largo de las canciones, Bad Bunny expresa cómo se siente y lo que uno piensa en esos momentos, utilizando un lenguaje cotidiano, similar al que usamos cuando hablamos con amigos.</p> 
                              </div>
                         </div>
@@ -2138,7 +2138,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
-                            <div class="col p-4 b-ra" style="background-color: #9064AE;">
+                                <div class="col p-4 b-ra" style="text-shadow: none; background-color: #97D7F7;">
                                 <p>A partir de este concepto pensé en el maquillaje, porque su música nos hace sentir bien por dentro y el maquillaje nos ayuda a vernos mejor por fuera. Para el empaque y el envase utilicé una paleta de colores en tonos pasteles que simulan estar rotos, reflejando la dualidad entre vulnerabilidad y fortaleza. En la paleta de sombras empleé colores vibrantes, inspirados en el uso característico de tonos llamativos en la estética de Bad Bunny, que transmiten energía y motivación. También incluí algunos tonos pasteles para generar contraste. Finalmente, incorporé el logo distintivo de Bad Bunny, el conejo, como elemento representativo del artista y su identidad visual.</p> 
                              </div>
                         </div>
@@ -2158,21 +2158,28 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                                     class="img-fluid b-ra2">
                             </div>
                         </div>
+                        
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                        <div class="mt-5">
+                             <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
+                                <p class="text-center">Volver arriba</p>
+                         </div>
+                    </div>    
     `,
 
     crearte: `<div id="crearte" class="container pt-3">
                         <div class="row d-flex g-3">
                             <!-- Imagen grande -->
                             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
-                                <img src="../img/MUNDO-ENVOLVENTE/CARTA-sunshine.png" alt="logo el poder de tres"
+                                <img src="../img/MUNDO-ENVOLVENTE/CARTA-crearte.png" alt="logo crearte"
                                     class="img-fluid">
                             </div>
 
                             <!-- Texto -->
                             <div class="col-lg-6 pt-4">
-                                <h1>SUNSHINE FT BAD BUNNY</h1>
-                                <p>Este proyecto se inspira en el álbum YHLQMDLG de Bad Bunny, el cual aborda emociones relacionadas con la tristeza y el desamor desde un lenguaje cercano y cotidiano</p> 
+                                <h1>CREARTE</h1>
+                                <p>Cajita de fósforos pensada para despertar la imaginación. Cada una funciona como una pequeña pieza artística que representa el impulso creativo.</p> 
                                 <div class="container d-flex align-items-end justify-content-start p-0">
                                     <div class="p-0 d-flex g-3">
                                         <div class="container ps-0">
@@ -2186,11 +2193,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                                         <div class="container ps-0">
                                             <img src="../img/AI.png" alt="logo Inteligencia Artificial"
                                                 class="img-fluid" style="max-width: 60px;">
-                                        </div>
-                                        <div class="container ps-0">
-                                            <img src="../img/LR.png" alt="logo LR"
-                                                class="img-fluid" style="max-width: 60px;">
-                                        </div>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </div>
@@ -2201,42 +2204,26 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                         <!-- PRIMER CONTENEDOR -->
                         <div class="row d-flex mt-5">
                             <div class="gx-3 gy-3">
-                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-1.png" alt="imagen1 stitch"
-                                    class="img-fluid b-ra2">
-                            </div>
-                        </div>
-
-                        <!-- SEGUNDO CONTENEDOR -->                         
-                        <div class="row d-flex">
-                            <div class="gx-3 gy-3">
-                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-2.png" alt="imagen1 stitch"
+                                <img src="../img/MUNDO-ENVOLVENTE/CREARTE/CREARTE-1.png" alt="imagen1 stitch"
                                     class="img-fluid b-ra2">
                             </div>
                         </div>
 
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
-                            <div class="col p-4 b-ra" style="background-color: #97D7F7;">
-                                <p>El concepto de este trabajo se basa en el álbum YHLQMDLG (Yo Hago Lo Que Me Da la Gana) de Bad Bunny. La idea central del álbum gira en torno a qué hacer cuando estás triste o te han roto el corazón; la respuesta es escucharlo a él. A lo largo de las canciones, Bad Bunny expresa cómo se siente y lo que uno piensa en esos momentos, utilizando un lenguaje cotidiano, similar al que usamos cuando hablamos con amigos.</p> 
+                            <div class="col p-4 b-ra" style="background-color: #D51E7D;">
+                                <p>“Encendé tu chispa creativa” CREarte es una cajita de fósforos que no solo enciende fuego, sino ideas. Cada cajita es una pieza gráfica —como una mini-obra de arte coleccionable— que celebra la energía creativa que vive dentro de cada persona. El tigre, con colores intensos magenta y verde neón, simboliza el instinto creador, la valentía para expresarte y la fuerza para transformar cualquier idea en algo vivo.</p> 
                              </div>
                         </div>
 
                         <!-- IV CONTENEDOR -->
                         <div class="row d-flex">
                             <div class="col-6 gx-3 gy-3">
-                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-3.png" alt="imagen airevo"
+                                <img src="../img/MUNDO-ENVOLVENTE/CREARTE/CREARTE-2.png" alt="imagen airevo"
                                     class="img-fluid b-ra2">
                             </div>
                             <div class="col-6 gx-3 gy-3">
-                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-4.png" alt="imagen airevo"
-                                    class="img-fluid b-ra2">
-                            </div>
-                        </div>
-
-                        <!-- V CONTENEDOR -->                         
-                        <div class="row d-flex">
-                            <div class="gx-3 gy-3">
-                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-5.png" alt="imagen1 stitch"
+                                <img src="../img/MUNDO-ENVOLVENTE/CREARTE/CREARTE-3.png" alt="imagen airevo"
                                     class="img-fluid b-ra2">
                             </div>
                         </div>
@@ -2244,54 +2231,49 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
                             <div class="col p-4 b-ra" style="background-color: #9064AE;">
-                                <p>A partir de este concepto pensé en el maquillaje, porque su música nos hace sentir bien por dentro y el maquillaje nos ayuda a vernos mejor por fuera. Para el empaque y el envase utilicé una paleta de colores en tonos pasteles que simulan estar rotos, reflejando la dualidad entre vulnerabilidad y fortaleza. En la paleta de sombras empleé colores vibrantes, inspirados en el uso característico de tonos llamativos en la estética de Bad Bunny, que transmiten energía y motivación. También incluí algunos tonos pasteles para generar contraste. Finalmente, incorporé el logo distintivo de Bad Bunny, el conejo, como elemento representativo del artista y su identidad visual.</p> 
+                                <p>Idea Central CREarte existe para recordarte que la creatividad también se prende fuego. Una chispa basta para que una idea explote en color, forma y movimiento. El fósforo no es solo utilidad: Es metáfora de empezar, de activar, de iluminar el proceso creativo. Mensaje Emocional CREarte te recuerda que cada proyecto, cada dibujo, cada idea… empieza con una chispa. Encender un fósforo se convierte en un pequeño ritual creativo: un recordatorio de que vos también podés incendiar tus mundos internos.</p> 
                              </div>
                         </div>
 
                         <!-- V CONTENEDOR -->                         
                         <div class="row d-flex">
                             <div class="gx-3 gy-3">
-                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-6.png" alt="imagen1 stitch"
+                                <img src="../img/MUNDO-ENVOLVENTE/CREARTE/CREARTE-4.png" alt="imagen1 stitch"
                                     class="img-fluid b-ra2">
                             </div>
                         </div>
+                        <!-- FECLA QUE ENVIA A SECCION CARTAS-->
+                        <div class="mt-5">
+                             <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
 
-                        <!-- V CONTENEDOR -->                         
-                        <div class="row d-flex">
-                            <div class="gx-3 gy-3">
-                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-7.png" alt="imagen1 stitch"
-                                    class="img-fluid b-ra2">
-                            </div>
-                        </div>
+                                <p class="text-center">Volver arriba</p>
+                         </div>
+                    </div>   
+    `,
+  };
 
-    `
+  // ====== 🔹 EVENTOS DE LOS BOTONES ======
+  // Eventos Click de Botones
+  botones.forEach((boton) => {
+    boton.addEventListener("click", () => {
+      botones.forEach((b) => b.classList.remove("activo"));
+      boton.classList.add("activo");
 
+      // Cargar contenido
+      const proyecto = boton.getAttribute("data-proyecto");
+      // Nota: Aquí uso 'window.contenido' si definiste la variable fuera,
+      // o asegúrate de pegar tu objeto 'contenido' dentro de este archivo.
 
-
-    };
-
-    // ====== 🔹 EVENTOS DE LOS BOTONES ======
-// Eventos Click de Botones
-    botones.forEach((boton) => {
-        boton.addEventListener("click", () => {
-            botones.forEach((b) => b.classList.remove("activo"));
-            boton.classList.add("activo");
-            
-            // Cargar contenido
-            const proyecto = boton.getAttribute("data-proyecto");
-            // Nota: Aquí uso 'window.contenido' si definiste la variable fuera, 
-            // o asegúrate de pegar tu objeto 'contenido' dentro de este archivo.
-            
-            // Para este ejemplo, usaré el objeto 'contenido' que definimos arriba.
-            // Si copiaste tu código anterior, asegúrate de que la variable 'contenido' esté accesible.
-            if(typeof contenido !== 'undefined' && contenido[proyecto]){
-                 contenedor.innerHTML = contenido[proyecto];
-            } else {
-                 // Fallback por si no copiaste el objeto contenido gigante
-                 console.log("Falta el objeto contenido para: " + proyecto);
-            }
-        });
+      // Para este ejemplo, usaré el objeto 'contenido' que definimos arriba.
+      // Si copiaste tu código anterior, asegúrate de que la variable 'contenido' esté accesible.
+      if (typeof contenido !== "undefined" && contenido[proyecto]) {
+        contenedor.innerHTML = contenido[proyecto];
+      } else {
+        // Fallback por si no copiaste el objeto contenido gigante
+        console.log("Falta el objeto contenido para: " + proyecto);
+      }
     });
+  });
 });
 
 // ==========================================
@@ -2300,27 +2282,26 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
 // Usamos 'load' en lugar de 'DOMContentLoaded' porque 'load' espera a las IMÁGENES.
 window.addEventListener("load", function () {
-    const loader = document.getElementById("pantalla-carga");
-    const sitio = document.getElementById("sitio-web"); // O el body si no usaste el wrapper
+  const loader = document.getElementById("pantalla-carga");
+  const sitio = document.getElementById("sitio-web"); // O el body si no usaste el wrapper
 
-    if (loader) {
-        // 1. Desvanecer el loader
-        loader.style.opacity = "0";
+  if (loader) {
+    // 1. Desvanecer el loader
+    loader.style.opacity = "0";
 
-        // 2. Esperar a que termine la transición css (0.5s) y borrarlo
-        setTimeout(function () {
-            loader.style.display = "none";
-            
-            // 3. Mostrar el sitio web suavemente
-            if(sitio) {
-                sitio.style.opacity = "1";
-            }
+    // 2. Esperar a que termine la transición css (0.5s) y borrarlo
+    setTimeout(function () {
+      loader.style.display = "none";
 
-            // 4. ACTIVAR ANIMACIONES CSS
-            // Si tus animaciones usan una librería como Animate.css o WOW.js,
-            // este es el momento de inicializarlas para que no se vean cortadas.
-            // Ejemplo: document.body.classList.remove('cargando');
-            
-        }, 500); // 500ms coincide con la transición CSS
-    }
+      // 3. Mostrar el sitio web suavemente
+      if (sitio) {
+        sitio.style.opacity = "1";
+      }
+
+      // 4. ACTIVAR ANIMACIONES CSS
+      // Si tus animaciones usan una librería como Animate.css o WOW.js,
+      // este es el momento de inicializarlas para que no se vean cortadas.
+      // Ejemplo: document.body.classList.remove('cargando');
+    }, 500); // 500ms coincide con la transición CSS
+  }
 });
