@@ -1495,7 +1495,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                             <!-- Texto -->
                             <div class="col-lg-6 pt-4">
                                 <h1>EMPICOLOR</h1>
-                                <p>reinventa las tradicionales empiñadas, uno de los snacks más representativos de El Salvador. La marca busca modernizar este producto artesanal incorporando colores vibrantes, sabores innovadores y una identidad visual fresca y divertida.</p>
+                                <p>Reinventa las tradicionales empiñadas, uno de los snacks más representativos de El Salvador. La marca busca modernizar este producto artesanal incorporando colores vibrantes, sabores innovadores y una identidad visual fresca y divertida.</p>
                                 <div class="container d-flex align-items-end justify-content-start p-0">
                                     <div class="p-0 d-flex g-3">
                                         <div class="container ps-0">
