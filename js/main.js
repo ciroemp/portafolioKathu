@@ -2230,7 +2230,7 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
 
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
-                            <div class="col p-4 b-ra" style="background-color: #9064AE;">
+                            <div class="col p-4 b-ra" style="background-color: #D51E7D;">
                                 <p>Idea Central CREarte existe para recordarte que la creatividad también se prende fuego. Una chispa basta para que una idea explote en color, forma y movimiento. El fósforo no es solo utilidad: Es metáfora de empezar, de activar, de iluminar el proceso creativo. Mensaje Emocional CREarte te recuerda que cada proyecto, cada dibujo, cada idea… empieza con una chispa. Encender un fósforo se convierte en un pequeño ritual creativo: un recordatorio de que vos también podés incendiar tus mundos internos.</p> 
                              </div>
                         </div>
