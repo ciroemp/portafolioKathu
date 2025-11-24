@@ -1093,7 +1093,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <!-- TEXTO -->
                         <div class="row d-flex mt-3 mx-auto">
                             <div class="col p-4 b-ra" style="background-color: #0E6C8C;">
-                                <p>MARISCO: darle a la ciudad un sabor a mar.” Un rincón playero en el corazón de la ciudad, donde el azul del océano y el aroma del mar se encuentran con la frescura, la energía y el sabor tropical. La marca utiliza una paleta de colores fríos, dominada por los azules del océano, equilibrados con un naranja cálido que transmite energía y sabor. El logotipo integra de forma visual la palabra “MAR” y “isco”, reforzando su identidad: el mar como esencia y los mariscos como producto principal.
+                                <p>MARISCO: darle a la ciudad un sabor a mar.” Un rincón playero en el corazón de la ciudad, donde el azul del océano y el aroma del mar se encuentran con la frescura, la energía y el sabor tropical. La marca utiliza una paleta de colores fríos, dominada por los azules del océano, equilibrados con un naranja cálido que transmite energía y sabor. El logotipo integra de forma visual la palabra “MAR” y “ISCO”, reforzando su identidad: el mar como esencia y los mariscos como producto principal.
 
                                     El espacio —una casa de cristal rústica en el corazón de la ciudad— invita a disfrutar una pausa entre el ritmo urbano, evocando el sonido de las olas, la brisa y la frescura del mar.</p>
                              </div>
