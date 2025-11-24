@@ -2055,7 +2055,217 @@ Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa
                                 <p class="text-center">Volver arriba</p>
                          </div>
                     </div> 
+    `,
+    sunshine: `<div id="elPoder" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-ENVOLVENTE/CARTA-sunshine.png" alt="logo el poder de tres"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>SUNSHINE FT BAD BUNNY</h1>
+                                <p>Este proyecto se inspira en el álbum YHLQMDLG de Bad Bunny, el cual aborda emociones relacionadas con la tristeza y el desamor desde un lenguaje cercano y cotidiano</p> 
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/LR.png" alt="logo LR"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-1.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-2.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #97D7F7;">
+                                <p>El concepto de este trabajo se basa en el álbum YHLQMDLG (Yo Hago Lo Que Me Da la Gana) de Bad Bunny. La idea central del álbum gira en torno a qué hacer cuando estás triste o te han roto el corazón; la respuesta es escucharlo a él. A lo largo de las canciones, Bad Bunny expresa cómo se siente y lo que uno piensa en esos momentos, utilizando un lenguaje cotidiano, similar al que usamos cuando hablamos con amigos.</p> 
+                             </div>
+                        </div>
+
+                        <!-- IV CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-3.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-4.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- V CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-5.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #9064AE;">
+                                <p>A partir de este concepto pensé en el maquillaje, porque su música nos hace sentir bien por dentro y el maquillaje nos ayuda a vernos mejor por fuera. Para el empaque y el envase utilicé una paleta de colores en tonos pasteles que simulan estar rotos, reflejando la dualidad entre vulnerabilidad y fortaleza. En la paleta de sombras empleé colores vibrantes, inspirados en el uso característico de tonos llamativos en la estética de Bad Bunny, que transmiten energía y motivación. También incluí algunos tonos pasteles para generar contraste. Finalmente, incorporé el logo distintivo de Bad Bunny, el conejo, como elemento representativo del artista y su identidad visual.</p> 
+                             </div>
+                        </div>
+
+                        <!-- V CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-6.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- V CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-7.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+    `,
+
+    crearte: `<div id="crearte" class="container pt-3">
+                        <div class="row d-flex g-3">
+                            <!-- Imagen grande -->
+                            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
+                                <img src="../img/MUNDO-ENVOLVENTE/CARTA-sunshine.png" alt="logo el poder de tres"
+                                    class="img-fluid">
+                            </div>
+
+                            <!-- Texto -->
+                            <div class="col-lg-6 pt-4">
+                                <h1>SUNSHINE FT BAD BUNNY</h1>
+                                <p>Este proyecto se inspira en el álbum YHLQMDLG de Bad Bunny, el cual aborda emociones relacionadas con la tristeza y el desamor desde un lenguaje cercano y cotidiano</p> 
+                                <div class="container d-flex align-items-end justify-content-start p-0">
+                                    <div class="p-0 d-flex g-3">
+                                        <div class="container ps-0">
+                                            <img src="../img/PS.png" alt="logo PhotoShop" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI-ADOBE.png" alt="logo Ilustrator" class="img-fluid"
+                                                style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/AI.png" alt="logo Inteligencia Artificial"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                        <div class="container ps-0">
+                                            <img src="../img/LR.png" alt="logo LR"
+                                                class="img-fluid" style="max-width: 60px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Espacio vacío -->
+                            <div class="col-lg-2 d-none d-lg-block"></div>
+                        </div>
+
+                        <!-- PRIMER CONTENEDOR -->
+                        <div class="row d-flex mt-5">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-1.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- SEGUNDO CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-2.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #97D7F7;">
+                                <p>El concepto de este trabajo se basa en el álbum YHLQMDLG (Yo Hago Lo Que Me Da la Gana) de Bad Bunny. La idea central del álbum gira en torno a qué hacer cuando estás triste o te han roto el corazón; la respuesta es escucharlo a él. A lo largo de las canciones, Bad Bunny expresa cómo se siente y lo que uno piensa en esos momentos, utilizando un lenguaje cotidiano, similar al que usamos cuando hablamos con amigos.</p> 
+                             </div>
+                        </div>
+
+                        <!-- IV CONTENEDOR -->
+                        <div class="row d-flex">
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-3.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                            <div class="col-6 gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-4.png" alt="imagen airevo"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- V CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-5.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- TEXTO -->
+                        <div class="row d-flex mt-3 mx-auto">
+                            <div class="col p-4 b-ra" style="background-color: #9064AE;">
+                                <p>A partir de este concepto pensé en el maquillaje, porque su música nos hace sentir bien por dentro y el maquillaje nos ayuda a vernos mejor por fuera. Para el empaque y el envase utilicé una paleta de colores en tonos pasteles que simulan estar rotos, reflejando la dualidad entre vulnerabilidad y fortaleza. En la paleta de sombras empleé colores vibrantes, inspirados en el uso característico de tonos llamativos en la estética de Bad Bunny, que transmiten energía y motivación. También incluí algunos tonos pasteles para generar contraste. Finalmente, incorporé el logo distintivo de Bad Bunny, el conejo, como elemento representativo del artista y su identidad visual.</p> 
+                             </div>
+                        </div>
+
+                        <!-- V CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-6.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
+                        <!-- V CONTENEDOR -->                         
+                        <div class="row d-flex">
+                            <div class="gx-3 gy-3">
+                                <img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-7.png" alt="imagen1 stitch"
+                                    class="img-fluid b-ra2">
+                            </div>
+                        </div>
+
     `
+
 
 
     };
