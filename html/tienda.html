@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - KathuFernandez</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/main.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="index" id="cartas">
+
+    <div id="pantalla-carga">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="sitio-web" style="opacity: 0; transition: opacity 1s ease-in-out;">
+
+        <header>
+            <div class="container-sm navbar-container">
+                <nav class="navbar navbar-expand-md">
+                    <div class="container"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon navbar-toggler-icon-custom"></span>
+                        </button>
+
+                        <a class="nav-link ms-2" href="../index.html" style="color: aliceblue;">PORTAFOLIO</a>
+
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                            <div class="navbar-nav mx-auto text-center align-items-center">
+                                <a class="nav-link" href="Jugadora.html">Jugadora</a>
+                                <a class="nav-link" href="imaginario.html">Imaginario</a>
+                                <a class="nav-link" href="envolvente.html">Envolvente</a>
+                                <a class="nav-link" href="identitario.html">Identitario</a>
+                                <a class="nav-link" href="conectados.html">Conectados</a>
+                                <a class="nav-link active" aria-current="page" href="#">Tienda</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container py-5">
+
+            <div class="row pt-4 mb-5 animate__animated animate__fadeInDown">
+                <div class="col-12 text-center">
+                    <h1 style="color: rgb(170, 201, 16);">TIENDA</h1>
+                    <p class="mt-2">Objetos de otros mundos para tu realidad.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center g-5">
+
+                <div class="col-md-5 col-lg-4 animate__animated animate__fadeInLeft animate__delay-1s">
+                    <div class="producto-card">
+                        <div class="producto-imagen-contenedor" align="center">
+                            <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-6.png" alt="Producto 1" class="img-fluid w-75">
+                            <div class="overlay-proximamente">
+                                <span>PRÓXIMAMENTE</span>
+                            </div>
+                        </div>
+                        <div class="producto-info text-center mt-3">
+                            <h3 style="color: white;">Arte Impreso</h3>
+                            <p style="color: #aaa;">Colección Limitada</p>
+                            <button class="boton-adquirir mt-2" data-bs-toggle="modal" data-bs-target="#modalAviso">
+                                ADQUIRIR
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-lg-4 animate__animated animate__fadeInRight animate__delay-1s">
+                    <div class="producto-card">
+                        <div class="producto-imagen-contenedor" align="center">
+                            <img src="../img/MUNDO-IDENTITARIO/IMG-GRANDE-ATRACTIVA.png" alt="Producto 2"
+                                class="img-fluid w-75">
+                            <div class="overlay-proximamente">
+                                <span>PRÓXIMAMENTE</span>
+                            </div>
+                        </div>
+                        <div class="producto-info text-center mt-3">
+                            <h3 style="color: white;">Merch Oficial</h3>
+                            <p style="color: #aaa;">Diseños Entre Mundos</p>
+                            <button class="boton-adquirir mt-2" data-bs-toggle="modal" data-bs-target="#modalAviso">
+                                ADQUIRIR
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-5 animate__animated animate__fadeInUp animate__delay-2s">
+                <div class="col-12 text-center">
+                    <div class="bloque-texto-imaginario p-4 mx-auto" style="max-width: 600px;">
+                        <p>Estamos preparando el inventario. <br>¡Prepárate para equipar tu mundo!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-5 mb-4" align="center">
+            <a href="#cartas"><img src="../img/FLECHA.png" alt="flecha" class="sombra b-ra"></a>
+            <p class="text-center mt-2">Volver arriba</p>
+        </div>
+
+        <div class="modal fade" id="modalAviso" tabindex="-1" aria-labelledby="modalAvisoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content estilo-modal-mundos">
+                    <div class="modal-header border-0 justify-content-center">
+                        <h5 class="modal-title fw-bold" id="modalAvisoLabel" style="color: #AAC910;">¡UPS! 🚧</h5>
+                    </div>
+                    <div class="modal-body text-center">
+                        <p class="text-white">Este objeto aún se está materializando en nuestra realidad.</p>
+                        <p class="mb-0" style="color: #D51E7D; font-weight: bold;">¡Pronto estará disponible!</p>
+                    </div>
+                    <div class="modal-footer border-0 justify-content-center">
+                        <button type="button" class="boton-cerrar-modal" data-bs-dismiss="modal">Entendido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center p-3">
+            <p style="font-size: 0.9rem;">
+                © 2025 <strong>Portafolio: Entre Mundos</strong> by <strong>Katherine Fernández / Kathu</strong>
+            </p>
+            <p style="font-size: 0.8rem;">
+                — Sitio desarrollado por <strong>Ciro Martínez</strong> en <strong>LaColo Estudio</strong>. —
+            </p>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -636,6 +636,64 @@ h4.text-center {
     animation: girar 1s ease-in-out infinite;
 }
 
+/* =========================================
+   ESTILOS BOTÓN Y MODAL TIENDA
+   ========================================= */
+
+/* Estilo del botón "Adquirir" */
+.boton-adquirir {
+    background-color: #AAC910; /* Verde Ácido */
+    color: #000; /* Texto negro */
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 0 rgba(0,0,0,0.5); /* Sombra dura 3D */
+}
+
+/* Efecto Hover (cambia a Fucsia) */
+.boton-adquirir:hover {
+    background-color: #D51E7D; /* Fucsia */
+    color: #fff;
+    transform: translateY(-2px); /* Se eleva un poco */
+    box-shadow: 0 6px 10px rgba(213, 30, 125, 0.4); /* Glow fucsia */
+}
+
+/* Efecto Click (se hunde) */
+.boton-adquirir:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.5);
+}
+
+/* --- ESTILOS DEL MODAL (VENTANA EMERGENTE) --- */
+
+/* El fondo del cuadro */
+.estilo-modal-mundos {
+    background-color: #1a1a1a; /* Negro suave */
+    border: 2px solid #AAC910; /* Borde Verde */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(170, 201, 16, 0.3); /* Resplandor verde */
+}
+
+/* Botón para cerrar el modal */
+.boton-cerrar-modal {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.boton-cerrar-modal:hover {
+    background: #fff;
+    color: #000;
+}
+
 @keyframes girar {
     to { transform: rotate(360deg); }
 }
