@@ -145,14 +145,14 @@ const contenido = {
                 <div class="col-md-6 gx-3 gy-3"><img src="../img/MUNDO-IMAGINARIO/ARIKA/ARIKA-12.png" class="img-fluid b-ra" alt="ARIKA 12"></div>
             </div>
 
-            <div class="row my-auto mx-auto gy-3 mt-4">
+            <div class="row my-auto mx-auto gy-3">
                 <div class="col p-4 b-ra" style="text-shadow: none; background-color: rgb(255,255,255);">
-                    <p id="arikaP1">Arika encuentra dos fresas gigantes, pero no quiere compartirlas con su hermano. Después de insistirle varias veces, cuando finalmente decide darle una, descubre que se han convertido en carbón por culpa del Hada del Egoísmo. Su hermano, para consolarla, comparte su galleta y le enseña que lo más valioso es aprender a compartir.</p>
+                    <p id="arikaP">Arika encuentra dos fresas gigantes, pero no quiere compartirlas con su hermano. Después de insistirle varias veces, cuando finalmente decide darle una, descubre que se han convertido en carbón por culpa del Hada del Egoísmo. Su hermano, para consolarla, comparte su galleta y le enseña que lo más valioso es aprender a compartir.</p>
                 </div>
             </div>
             <div class="row my-auto mx-auto gy-3">
                 <div class="col p-4 b-ra" style="text-shadow: none; background-color: rgb(255,255,255);">
-                    <p id="arikaP2">Esta historia nace del valor de compartir, algo que me costó aprender de niña. Los protagonistas, dos borreguitos Aries, representan a mi hermano y a mí, y reviven nuestras experiencias de infancia con humor y ternura. Con un estilo kawaii y un toque fantasioso, “Arika” combina nuestros nombres y refleja una lección simple pero profunda: compartir también es una forma de amar.</p>
+                    <p id="arikaP">Esta historia nace del valor de compartir, algo que me costó aprender de niña. Los protagonistas, dos borreguitos Aries, representan a mi hermano y a mí, y reviven nuestras experiencias de infancia con humor y ternura. Con un estilo kawaii y un toque fantasioso, “Arika” combina nuestros nombres y refleja una lección simple pero profunda: compartir también es una forma de amar.</p>
                 </div>
             </div>
 
