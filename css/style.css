@@ -705,6 +705,14 @@ body.cargando .elemento-animado {
     animation-play-state: paused; /* Pausa la animación */
 }
 
+ .flecha-arriba {
+  height: auto; /* Mantiene la proporción */
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); /* Resplandor verde */
+  
+
+}
+
 
 @media (max-width: 800px) {
   .formatoMundos {
@@ -719,6 +727,12 @@ body.cargando .elemento-animado {
     padding-top: 18vw;
     max-width: 95%;
   }
+
+  .flecha-arriba {
+  width: 70px;  /* Ejemplo: ajusta a tu tamaño deseado */
+  height: auto; /* Mantiene la proporción */
+  border-radius: 30px;
+}
 
   .bloque-texto-imaginario {
     padding: 0.9rem, .5rem;
