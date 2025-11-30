@@ -7,9 +7,8 @@
 // ==========================================
 
 const contenido = {
-
-    // ================== SECCIÓN: PINOCHO ==================
-    pinocho: `
+  // ================== SECCIÓN: PINOCHO ==================
+  pinocho: `
       <div id="pinocho" class="container pt-3">
             <div class="row d-flex g-3">
                 <div class="col-md-4 fondo-tarjeta text-center">
@@ -53,8 +52,8 @@ const contenido = {
         </div>
     `,
 
-    // ================== SECCIÓN: JIPILOVE ==================
-    jipilove: `      
+  // ================== SECCIÓN: JIPILOVE ==================
+  jipilove: `      
         <div id="jipilove" class="container pt-3">
             <div class="row d-flex g-3">
                 <div class="col-md-4 fondo-tarjeta text-center">
@@ -101,8 +100,8 @@ const contenido = {
         </div>
     `,
 
-    // ================== SECCIÓN: ARIKA ==================
-    arika: `
+  // ================== SECCIÓN: ARIKA ==================
+  arika: `
       <div id="arika" class="container pt-3">
             <div class="row d-flex g-3">
                 <div class="col-md-4 fondo-tarjeta text-center">
@@ -159,8 +158,8 @@ const contenido = {
         </div>
     `,
 
-    // ================== SECCIÓN: SOMBRILLA AZUL ==================
-    sombrillaAzul: `
+  // ================== SECCIÓN: SOMBRILLA AZUL ==================
+  sombrillaAzul: `
     <div id="sombrillaAzul" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta text-center">
@@ -201,8 +200,8 @@ const contenido = {
     </div>
     `,
 
-    // ================== SECCIÓN: CUIDAMOS TANTO ==================
-    cuidamosTanto: `
+  // ================== SECCIÓN: CUIDAMOS TANTO ==================
+  cuidamosTanto: `
     <div id="cuidamosTanto" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta text-center">
@@ -244,8 +243,8 @@ const contenido = {
     </div>
     `,
 
-    // ================== SECCIÓN: UNIVERSOS ANEXOS ==================
-    escarabajo: `
+  // ================== SECCIÓN: UNIVERSOS ANEXOS ==================
+  escarabajo: `
     <div id="escarabajo" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta text-center">
@@ -293,8 +292,8 @@ const contenido = {
     </div>
     `,
 
-    // ================== SECCIÓN: MUSCLE MUNCH ==================
-    muscleMunch: `
+  // ================== SECCIÓN: MUSCLE MUNCH ==================
+  muscleMunch: `
     <div id="muscleMunch" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta text-center">
@@ -348,8 +347,8 @@ const contenido = {
     </div>
     `,
 
-    // ================== SECCIÓN: ATRACTIVA ==================
-    atractiva: ` 
+  // ================== SECCIÓN: ATRACTIVA ==================
+  atractiva: ` 
     <div id="atractiva" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta text-center">
@@ -403,8 +402,8 @@ const contenido = {
     </div>
     `,
 
-    // ================== SECCIÓN: MARTÍ ==================
-    marti: ` 
+  // ================== SECCIÓN: MARTÍ ==================
+  marti: ` 
     <div id="marti" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta text-center">
@@ -458,8 +457,8 @@ const contenido = {
     </div>
     `,
 
-    // ================== SECCIÓN: AIREVO ==================
-    airevo: `
+  // ================== SECCIÓN: AIREVO ==================
+  airevo: `
     <div id="airevo" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta text-center">
@@ -513,8 +512,8 @@ const contenido = {
     </div>
     `,
 
-    // ================== SECCIÓN: MARISCO ==================
-    marisco: `
+  // ================== SECCIÓN: MARISCO ==================
+  marisco: `
     <div id="marisco" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -573,8 +572,8 @@ const contenido = {
     </div>    
     `,
 
-    // ================== SECCIÓN: CLARITA (IDENTIDAD) ==================
-    clarita: `
+  // ================== SECCIÓN: CLARITA (IDENTIDAD) ==================
+  clarita: `
     <div id="clarita" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -635,8 +634,8 @@ const contenido = {
     </div> 
     `,
 
-    // ================== SECCIÓN: KAPRICHOS ==================
-    kaprichos: `
+  // ================== SECCIÓN: KAPRICHOS ==================
+  kaprichos: `
     <div id="kaprichos" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -694,8 +693,8 @@ const contenido = {
     </div> 
     `,
 
-    // ================== SECCIÓN: ACTOHÓRICOS ANÓNIMOS ==================
-    actoHistoricos: `
+  // ================== SECCIÓN: ACTOHÓRICOS ANÓNIMOS ==================
+  actoHistoricos: `
     <div id="actos-historicos" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -752,8 +751,8 @@ const contenido = {
     </div> 
     `,
 
-    // ================== SECCIÓN: EMPICOLOR ==================
-    empiColor: `
+  // ================== SECCIÓN: EMPICOLOR ==================
+  empiColor: `
     <div id="empi-color" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -804,8 +803,8 @@ const contenido = {
     </div> 
     `,
 
-    // ================== SECCIÓN: NO CREAR ==================
-    noCrear: `
+  // ================== SECCIÓN: NO CREAR ==================
+  noCrear: `
     <div id="no-crear" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -857,8 +856,8 @@ const contenido = {
     </div> 
     `,
 
-    // ================== SECCIÓN: PUPUSERÍA CLARITA (EMPAQUE) ==================
-    pClarita: `
+  // ================== SECCIÓN: PUPUSERÍA CLARITA (EMPAQUE) ==================
+  pClarita: `
     <div id="clarita" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -905,8 +904,8 @@ const contenido = {
     </div> 
     `,
 
-    // ================== SECCIÓN: STITCH ==================
-    stitch: ` 
+  // ================== SECCIÓN: STITCH ==================
+  stitch: ` 
     <div id="stitch" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -954,8 +953,8 @@ const contenido = {
     </div> 
     `,
 
-    // ================== SECCIÓN: EL PODER DE TRES ==================
-    elPoder: `
+  // ================== SECCIÓN: EL PODER DE TRES ==================
+  elPoder: `
     <div id="elPoder" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -1009,8 +1008,8 @@ const contenido = {
     </div> 
     `,
 
-    // ================== SECCIÓN: PUPUSERÍA CLARITA (REDES) ==================
-    cclarita: `
+  // ================== SECCIÓN: PUPUSERÍA CLARITA (REDES) ==================
+  cclarita: `
     <div id="clarita-c" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -1059,8 +1058,8 @@ const contenido = {
     </div> 
     `,
 
-    // ================== SECCIÓN: SUNSHINE FT BAD BUNNY ==================
-    sunshine: `
+  // ================== SECCIÓN: SUNSHINE FT BAD BUNNY ==================
+  sunshine: `
     <div id="elPoder" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -1115,8 +1114,8 @@ const contenido = {
     </div>    
     `,
 
- // ================== SECCIÓN: CREARTE ==================
-    crearte: `
+  // ================== SECCIÓN: CREARTE ==================
+  crearte: `
     <div id="crearte" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -1158,8 +1157,8 @@ const contenido = {
     </div>   
     `,
 
-    // ================== SECCIÓN: KOLASHANPAN ==================
-    kolashanpan: `
+  // ================== SECCIÓN: KOLASHANPAN ==================
+  kolashanpan: `
     <div id="kolashanpan" class="container pt-3">
         <div class="row d-flex g-3">
             <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
@@ -1239,15 +1238,13 @@ const contenido = {
             <p class="text-center">Volver arriba</p>
         </div>
     </div>
-    `
+    `,
 };
-
 
 // ==========================================
 // 2. LÓGICA DE INICIALIZACIÓN (DOMContentLoaded)
 // ==========================================
 document.addEventListener("DOMContentLoaded", function () {
-  
   // --- A. Selección de Elementos del DOM ---
   const botones = document.querySelectorAll(".menu-carta");
   const contenedor = document.getElementById("contenido-dinamico");
@@ -1291,6 +1288,12 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   }
 
+  // Agregado para deshabilitar el clic derecho
+  document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+    console.log("Clic derecho bloqueado para proteger el contenido.");
+  });
+
   // --- D. Eventos Click de Botones para Carga Dinámica ---
   botones.forEach((boton) => {
     boton.addEventListener("click", () => {
@@ -1304,6 +1307,12 @@ document.addEventListener("DOMContentLoaded", function () {
       // 3. Inyectar HTML si existe en el objeto 'contenido'
       if (contenido[proyecto]) {
         contenedor.innerHTML = contenido[proyecto];
+
+        contenedor.scrollIntoView({
+          behavior: "smooth", // Desplazamiento suave
+          block: "start", // Alinea el elemento con la parte superior
+        });
+        
       } else {
         console.error("Contenido no encontrado para el proyecto:", proyecto);
       }
@@ -1325,6 +1334,6 @@ window.addEventListener("load", function () {
       if (sitio) {
         sitio.style.opacity = "1";
       }
-    }, 500); 
+    }, 500);
   }
 });
