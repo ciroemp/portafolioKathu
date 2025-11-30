@@ -29,8 +29,8 @@ const contenido = {
                 <div class="col"><img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-1.png" alt="PINOCHO 1" class="img-fluid b-ra"></div>
             </div>
             <div class="row my-auto d-flex">
-                <div class="col-md-6 gx-3 gy-3"><img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-2.png" class="img-fluid b-ra" alt="PINOCHO 2"></div>
-                <div class="col-md-6 gx-3 gy-3 d-flex flex-column justify-content-between">
+                <div class="col-md-5 gx-3 gy-3"><img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-2.png" class="img-fluid b-ra" alt="PINOCHO 2"></div>
+                <div class="col-md-7 gx-3 gy-3 d-flex flex-column justify-content-between">
                     <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-3.png" class="img-fluid b-ra mb-4" alt="PINOCHO 3">
                     <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-4.png" class="img-fluid b-ra" alt="PINOCHO 4">
                 </div>
@@ -148,10 +148,6 @@ const contenido = {
             <div class="row my-auto mx-auto gy-3">
                 <div class="col p-4 b-ra" style="text-shadow: none; background-color: rgb(255,255,255);">
                     <p id="arikaP">Arika encuentra dos fresas gigantes, pero no quiere compartirlas con su hermano. Después de insistirle varias veces, cuando finalmente decide darle una, descubre que se han convertido en carbón por culpa del Hada del Egoísmo. Su hermano, para consolarla, comparte su galleta y le enseña que lo más valioso es aprender a compartir.</p>
-                </div>
-            </div>
-            <div class="row my-auto mx-auto gy-3">
-                <div class="col p-4 b-ra" style="text-shadow: none; background-color: rgb(255,255,255);">
                     <p id="arikaP">Esta historia nace del valor de compartir, algo que me costó aprender de niña. Los protagonistas, dos borreguitos Aries, representan a mi hermano y a mí, y reviven nuestras experiencias de infancia con humor y ternura. Con un estilo kawaii y un toque fantasioso, “Arika” combina nuestros nombres y refleja una lección simple pero profunda: compartir también es una forma de amar.</p>
                 </div>
             </div>
@@ -1108,10 +1104,6 @@ const contenido = {
         <div class="row d-flex mt-3 mx-auto">
             <div class="col p-4 b-ra" style="background-color: #9064AE;">
                 <p>El concepto de este trabajo se basa en el álbum YHLQMDLG (Yo Hago Lo Que Me Da la Gana) de Bad Bunny. La idea central del álbum gira en torno a qué hacer cuando estás triste o te han roto el corazón; la respuesta es escucharlo a él. A lo largo de las canciones, Bad Bunny expresa cómo se siente y lo que uno piensa en esos momentos, utilizando un lenguaje cotidiano, similar al que usamos cuando hablamos con amigos.</p> 
-            </div>
-        </div>
-        <div class="row d-flex mt-3 mx-auto">
-            <div class="col p-4 b-ra" style="text-shadow: none; background-color: #97D7F7;">
                 <p>A partir de este concepto pensé en el maquillaje, porque su música nos hace sentir bien por dentro y el maquillaje nos ayuda a vernos mejor por fuera. Para el empaque y el envase utilicé una paleta de colores en tonos pasteles que simulan estar rotos, reflejando la dualidad entre vulnerabilidad y fortaleza. En la paleta de sombras empleé colores vibrantes, inspirados en el uso característico de tonos llamativos en la estética de Bad Bunny, que transmiten energía y motivación. También incluí algunos tonos pasteles para generar contraste. Finalmente, incorporé el logo distintivo de Bad Bunny, el conejo, como elemento representativo del artista y su identidad visual.</p> 
             </div>
         </div>
@@ -1123,7 +1115,7 @@ const contenido = {
     </div>    
     `,
 
-    // ================== SECCIÓN: CREARTE ==================
+ // ================== SECCIÓN: CREARTE ==================
     crearte: `
     <div id="crearte" class="container pt-3">
         <div class="row d-flex g-3">
@@ -1151,17 +1143,10 @@ const contenido = {
             <div class="col-6 gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/CREARTE/CREARTE-2.png" alt="CREARTE 2" class="img-fluid b-ra2"></div>
             <div class="col-6 gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/CREARTE/CREARTE-3.png" alt="CREARTE 3" class="img-fluid b-ra2"></div>
         </div>
-        <div class="row d-flex">
-            <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/CREARTE/CREARTE-4.png" alt="CREARTE 4" class="img-fluid b-ra2"></div>
-        </div>
-
+        
         <div class="row d-flex mt-3 mx-auto">
             <div class="col p-4 b-ra" style="background-color: #D51E7D;">
                 <p>“Encendé tu chispa creativa” CREarte es una cajita de fósforos que no solo enciende fuego, sino ideas. Cada cajita es una pieza gráfica —como una mini-obra de arte coleccionable— que celebra la energía creativa que vive dentro de cada persona. El tigre, con colores intensos magenta y verde neón, simboliza el instinto creador, la valentía para expresarte y la fuerza para transformar cualquier idea en algo vivo.</p> 
-            </div>
-        </div>
-        <div class="row d-flex mt-3 mx-auto">
-            <div class="col p-4 b-ra" style="background-color: #D51E7D;">
                 <p>Idea Central CREarte existe para recordarte que la creatividad también se prende fuego. Una chispa basta para que una idea explote en color, forma y movimiento. El fósforo no es solo utilidad: Es metáfora de empezar, de activar, de iluminar el proceso creativo. Mensaje Emocional CREarte te recuerda que cada proyecto, cada dibujo, cada idea… empieza con una chispa. Encender un fósforo se convierte en un pequeño ritual creativo: un recordatorio de que vos también podés incendiar tus mundos internos.</p> 
             </div>
         </div>
@@ -1226,10 +1211,6 @@ const contenido = {
         <div class="row d-flex mt-3 mx-auto">
             <div class="col p-4 b-ra" style="background-color: #00AFFE;">
                 <p>El proyecto consistió en un rebranding completo de Kolashanpan, realizado de forma grupal. El equipo investigó la historia, evolución visual e identidad actual de la marca, y creó el concepto rector “Orgullo que se comparte”, que guió toda la propuesta. Se desarrolló una identidad renovada, incluyendo nuevo logotipo, paleta cromática vibrante, tipografía, usos correctos e incorrectos y aplicaciones corporativas como papelería, carnets, uniformes y promocionales. También se elaboró la estrategia de marca y comunicación, junto con su buyer persona y posicionamiento actualizado.</p>
-            </div>
-        </div>
-        <div class="row d-flex mt-3 mx-auto">
-            <div class="col p-4 b-ra" style="background-color: #00AFFE;">
                 <p>Dentro del trabajo grupal, me encargué de las ilustraciones que se utilizaron en la identidad renovada, aportando el estilo visual que caracteriza el proyecto. Además, yo realicé los mockups, incluyendo botellas, empaques y el six-pack, logrando que el concepto pudiera verse aplicado de forma realista, profesional y coherente con el nuevo sistema visual.</p>
             </div>
         </div>

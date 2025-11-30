@@ -196,6 +196,22 @@ header {
 
 }
 
+/* Estilo por defecto (Verde) para Envolvente y Conectados */
+/* Se aplica a los body con id 'conectados' y 'envolvente' */
+#conectados .navbar .nav-link.active,
+#envolvente .navbar .nav-link.active {
+    background-color: rgb(170, 201, 16); /* Verde */
+    color: black !important;
+}
+
+/* Estilo alternativo (Fucsia) para Imaginario e Identitario */
+/* Se aplica a los body con id 'imaginario' y 'identitario' */
+#imaginario .navbar .nav-link.active,
+#identitario .navbar .nav-link.active {
+    background-color: rgb(234, 65, 145); /* Fucsia */
+    color: black !important;
+}
+
 /* Enlace activo */
 .navbar .nav-link.active {
   background-color: rgb(170, 201, 16);
