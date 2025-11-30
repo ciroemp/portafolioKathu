@@ -29,8 +29,8 @@ const contenido = {
                 <div class="col"><img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-1.png" alt="PINOCHO 1" class="img-fluid b-ra"></div>
             </div>
             <div class="row my-auto d-flex">
-                <div class="col-md-5 gx-3 gy-3"><img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-2.png" class="img-fluid b-ra" alt="PINOCHO 2"></div>
-                <div class="col-md-7 gx-3 gy-3 d-flex flex-column justify-content-between">
+                <div class="col-md-6 gx-3 gy-3"><img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-2.png" class="img-fluid b-ra" alt="PINOCHO 2"></div>
+                <div class="col-md-6 gx-3 gy-3 d-flex flex-column justify-content-between">
                     <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-3.png" class="img-fluid b-ra mb-4" alt="PINOCHO 3">
                     <img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-4.png" class="img-fluid b-ra" alt="PINOCHO 4">
                 </div>
@@ -40,7 +40,7 @@ const contenido = {
                 <div class="col-md-6 gx-3 gy-3"><img src="../img/MUNDO-IMAGINARIO/PINOCHO/PINOCHO-6.png" class="img-fluid b-ra" alt="PINOCHO 6"></div>
             </div>
 
-            <div class="row my-auto mx-auto gy-3 mt-4">
+            <div class="row my-auto mx-auto gy-3">
                 <div class="col p-4 b-ra" style="background-color: rgb(58,57,55);">
                     <p>He recreado a Pinocho en un ambiente tétrico para cuestionar la idea de que un muñeco de madera pueda convertirse en un niño real. Mi intención es reflejar que su creador podría tener trastornos de personalidad, y que esta fantasía nace desde una mente fragmentada. Utilizo tonalidades grises y apagadas en el entorno para acentuar la atmósfera inquietante, mientras que Pinocho destaca con colores vibrantes, simbolizando la obsesión y el contraste entre realidad e ilusión.</p>
                 </div>
@@ -85,7 +85,7 @@ const contenido = {
                 <div class="col-md-6 gx-3 gy-3"><img src="../img/MUNDO-IMAGINARIO/JIPILOVE/JIPILOVE-5.png" class="img-fluid b-ra" alt="JIPILOVE 5"></div>
             </div>
 
-            <div class="row my-auto mx-auto gy-3 mt-4">
+            <div class="row my-auto mx-auto gy-3">
                 <div class="col p-4 b-ra" style="background-color: rgb(226,11,119);">
                     <p>Jipilove es una niña de 12 años que representa paz, amor y buena vibra. Su mundo combina colores psicodélicos, música y naturaleza. Es pacífica, dulce y empática: la ira la asusta, pero la tristeza ajena la mueve a ayudar.</p>
                     <p>Físicamente es delgada, de 1.40 m, con cabello largo castaño, ojos oscuros y piel clara. Lleva ropa jipi colorida, flores en el pelo, lentes redondos y accesorios llenos de símbolos de paz.</p>
@@ -187,7 +187,7 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-IMAGINARIO/SOMBRILLA-AZUL/SOMBRILLA-AZUL-3.png" alt="SOMBRILLA AZUL 3" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: rgb(32,68,150);">
                 <p>Pañuelo playero inspirado en la identidad costera salvadoreña. Su diseño combina los colores blanco y azul de la bandera de El Salvador con ilustraciones emblemáticas como minutas, palmeras con cocos, hielera, niño en traje de baño, sombrilla playera, huacal, pelota de fútbol y chancla.</p>
                 <p>Es un accesorio versátil que celebra la cultura popular y la calidez de las playas salvadoreñas.</p>
@@ -231,7 +231,7 @@ const contenido = {
             <div class="col-lg-6 gx-4 gy-3"><img src="../img/MUNDO-IMAGINARIO/CUIDAMOS-TANTO/CUIDAMOS-TANTO-6.png" class="img-fluid b-ra2" alt="CUIDAMOS TANTO 6"></div>
         </div>
 
-        <div class="row my-3 mx-0">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: rgb(226,11,119);">
                 <p>Un corazón que esta cerrado por un candado. Lo protege tanto, que nadie puede alcanzarlo. Pero dentro, también guardan las palabras que dolieron y nunca se soltaron. Esta ilustración representa esa contradicción: el deseo de cuidar y el miedo de abrirse, el equilibrio entre protegerse y dejar entrar la luz. </p>
             </div>
@@ -280,7 +280,7 @@ const contenido = {
             <div class="col-lg-6 gx-3 gy-3"><img src="../img/MUNDO-IMAGINARIO/UNIVERSOS-ANEXOS/UNIVERSOS-ANEXOS-7.png" class="img-fluid b-ra" alt="UNIVERSOS ANEXOS 7"></div>
         </div>
 
-        <div class="row my-auto mx-auto gy-3 mt-4">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: rgb(63,45,98);">
                 <p>Una dimensión paralela al tablero principal. Aquí se guardan los experimentos, las exploraciones y las semillas visuales que nutren los mundos de Entre Mundos. Cada ilustración es un fragmento emocional, una historia que vibra entre serenidad, empatía y magia natural. </p>
             </div>
@@ -335,7 +335,7 @@ const contenido = {
             </div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #000000;">
                 <p>Su promesa es simple pero poderosa: “Tu aliado en cada rep.” Representa disciplina, energía y progreso constante, acompañando a cada persona en su camino de superación física y mental. Con una estética fuerte, moderna y directa, MUSCLE MUNCH fusiona el poder del rendimiento con la motivación de comunidad fitness.</p>
             </div>
@@ -390,7 +390,7 @@ const contenido = {
             </div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color:  rgb(0, 46, 117);">
                 <p>Nace del deseo de que cada mujer salvadoreña pueda verse y sentirse bien consigo misma. Más que una marca de ropa, es una invitación a reconectarse con la feminidad, la autoestima y la expresión personal. Las prendas están elaboradas en satín, un material que simboliza delicadeza, luminosidad y movimiento, reflejando la fuerza suave que caracteriza a la mujer. Cada pieza es confeccionada con detalle y cariño, bajo el lema “hecho con amor”, que representa tanto el proceso artesanal como el propósito emocional detrás de la marca.</p>
             </div>
@@ -445,7 +445,7 @@ const contenido = {
             </div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color:  rgb(0, 83, 70);">
                 <p>Nace como una marca de joyería inclusiva y versátil, diseñada para acompañar tanto la fuerza masculina como la sutileza femenina. Su esencia se basa en la brillantez interior: cada pieza busca resaltar la personalidad de quien la lleva, sin opacar, sino potenciando su presencia natural. Su lema, “Tan brillante como tú”, expresa la idea de que cada persona posee su propio brillo interior, y que las joyas son solo el reflejo de esa luz. La marca fusiona minimalismo, sofisticación y equilibrio entre lo clásico y lo moderno, creando piezas que celebran la autenticidad y la confianza personal.</p>
             </div>
@@ -500,7 +500,7 @@ const contenido = {
             </div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color:  rgb(0, 37, 62);">
                 <p>Su nombre combina "aire” y “evolución”, representando el deseo de avanzar, descubrir y volar hacia nuevas experiencias. El diseño parte del símbolo del ave, elegida por su asociación con el cielo y el sentido de exploración. La marca busca transmitir fuerza, ligereza y confianza, fusionando elementos visuales que evocan el vuelo, el movimiento y la energía de viajar. La tipografía Sans Serif refuerza el estilo moderno y minimalista, aportando claridad y profesionalismo al conjunto visual. El resultado es una marca que inspira movimiento, aventura y elegancia: un símbolo del viaje como transformación.  </p>
             </div>
@@ -559,7 +559,7 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-IDENTITARIO/MARISCO/MARISCO-7.png" alt="MARISCO 7" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #0E6C8C;">
                 <p>MARISCO: darle a la ciudad un sabor a mar.” Un rincón playero en el corazón de la ciudad, donde el azul del océano y el aroma del mar se encuentran con la frescura, la energía y el sabor tropical. La marca utiliza una paleta de colores fríos, dominada por los azules del océano, equilibrados con un naranja cálido que transmite energía y sabor. El logotipo integra de forma visual la palabra “MAR” y “ISCO”, reforzando su identidad: el mar como esencia y los mariscos como producto principal.
                 El espacio —una casa de cristal rústica en el corazón de la ciudad— invita a disfrutar una pausa entre el ritmo urbano, evocando el sonido de las olas, la brisa y la frescura del mar.</p>
@@ -621,7 +621,7 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-IDENTITARIO/CLARITA/PUPUSERIA-CLARITA-7.png" alt="PUPUSERIA CLARITA 7" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #DC1818;">
                 <p>Pupusería Clarita celebra la tradición familiar y el amor por lo hecho a mano. Nacida del legado de la bisabuela Clarita y transmitida de generación en generación, la marca representa el sabor auténtico de las pupusas salvadoreñas y la calidez del hogar. Su estética vintage y alegre rinde homenaje a las pupuserías de antaño, rescatando la esencia del barrio, la cercanía y el valor de lo simple.
                 Cada detalle —del personaje sonriente al lema “Hechas con amor”— expresa el orgullo de una familia que sigue cocinando con historia.</p>
@@ -681,7 +681,7 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-CONECTADOS/KAPRICHOS/KAPRICHOS-12.png" alt="KAPRICHOS 12" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #F4BC4B;">
                 <p>Floristería ubicada en la Avenida Olímpica, San Salvador, con envíos a todo el país y un catálogo variado de flores y arreglos. La marca busca fidelizar a sus clientes e incorporar a un público joven, ya que se ha perdido la costumbre de regalar flores. Por ello, se desarrolló una campaña en redes sociales y medios tradicionales enfocada en el Día de las Madres. Además, se brindó información sobre el cuidado de las flores para prolongar su duración y generar identificación de los consumidores con los distintos tipos de flores.</p>
             </div>
@@ -738,7 +738,7 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-CONECTADOS/ACTOHORICOS-AA/ACTOHORICOS-10.png" alt="ACTOHORICOS 10" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #202020;">
                 <p>Estos diseños promocionan la obra “Actohóricos Anónimos (A.A.)”, una propuesta de teatro absurdo y ácido dirigida por César Pineda en el Teatro Nacional de El Salvador.</p>
                 <p>La campaña busca reflejar el tono intenso, crítico y emocional de la obra mediante una estética teatral contemporánea que combina drama clásico con una identidad moderna. El concepto visual se basa en el contraste rojo y negro, una tipografía expresiva y fotografía en blanco y negro con acentos rojos, resaltando las emociones extremas de los personajes y el espíritu provocador del montaje.</p>
@@ -790,10 +790,10 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-CONECTADOS/EMPICOLOR/EMPICOLOR-8.png" alt="EMPICOLOR 8" class="img-fluid b-ra2"></div>
         </div>
        
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #70D0D3;">
-                <p>Para el proyecto se desarrolló el logotipo, la línea gráfica, fotografías de producto y contenidos para redes sociales. La paleta cromática —compuesta por rosas, amarillos y morados intensos— transmite energía, alegría y modernidad, resaltando la textura y el carácter artesanal de las empiñadas.</p>
-                <p>Además de su identidad visual, EMPICOLOR introduce un toque innovador al crear una empiñada de Nutella, un sabor especial que combina tradición con una propuesta más contemporánea.</p>
+                <p style="text-shadow: none;">Para el proyecto se desarrolló el logotipo, la línea gráfica, fotografías de producto y contenidos para redes sociales. La paleta cromática —compuesta por rosas, amarillos y morados intensos— transmite energía, alegría y modernidad, resaltando la textura y el carácter artesanal de las empiñadas.</p>
+                <p style="text-shadow: none;">Además de su identidad visual, EMPICOLOR introduce un toque innovador al crear una empiñada de Nutella, un sabor especial que combina tradición con una propuesta más contemporánea.</p>
             </div>
         </div>
 
@@ -844,7 +844,7 @@ const contenido = {
             <div class="col-4 gx-3 gy-3"><img src="../img/MUNDO-CONECTADOS/NO-CREAR/NO-CREAR-10.png" alt="NO CREAR 10" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #7F03B0;">
                 <p>Creatividad sin bloqueos es una campaña visual y reflexiva que invita a los creativos a reconectar con el verdadero sentido de crear: disfrutar el proceso, aceptar los errores y reconocer que la creatividad no depende de la productividad, sino del bienestar y la conexión interior. La serie utiliza frases cotidianas, tipografía lúdica y colores vibrantes para romper con la rigidez del “deber ser” creativo. Con una estética pop, optimista y algo retro, cada pieza se convierte en un recordatorio visual de que crear no es una exigencia, es un proceso vital y humano.</p>
             </div>
@@ -892,7 +892,7 @@ const contenido = {
             <div class="col-6 gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/PUPUSERIA-CLARITA/pupuseria-5.png" alt="pupuseria 5" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #DC1818;">
                 <p>Diseñé un empaque tipo caja con asa para Pupusería Clarita, siguiendo la identidad visual retro de la marca. Utilicé el rojo vibrante, el patrón de cuadros blancos y la mascota “Clarita” para mantener coherencia con sus piezas de redes. El proyecto incluye el dieline (plantilla troquelada) con distribución estratégica del logo, frases y gráficos, y un render 3D del empaque armado para mostrar su volumen real y cómo se ven los elementos aplicados. El empaque está pensado para pedidos para llevar, mejorar la experiencia del cliente y reforzar la presencia de marca de forma atractiva y funcional.</p>
             </div>
@@ -940,7 +940,7 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/STITCH/STITCH-5.png" alt="STITCH 5" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #1346BC;">
                 <p>Explosión de color. Imperfección hermosa. Este mosaico de vidrio es para quienes se animan a crear desde lo roto, lo salvaje y lo distinto. Ideal para arte decorativo, marcos, espejos, mesas o lo que tu lado más creativo quiera transformar.</p> 
                 <p>El empaque está basado en la idea del caos creativo —“Del caos nace la magia”—, con una explosión de color y un enfoque en la imperfección como belleza. El mosaico de vidrio inspirado en Stitch simboliza resiliencia, inclusión y creatividad, combinando piezas que “no nacieron para encajar, pero juntas crean algo hermoso”.</p>                       
@@ -994,7 +994,7 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/EL-PODER-DE-TRES/EL-PODER-DE-TRES-6.png" alt="EL PODER DE TRES 6" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #AB1816;">
                 <p>El concepto inicia a partir de mi gusto personal por el chile. A partir de esa palabra exploré sus características principales, y de ellas surgió el nombre del empaque, conectándolo con la emoción que experimento cada vez que voy a restaurantes mexicanos.</p> 
                 <p>“El poder de tres” representa una trilogía de sabores que despiertan los sentidos a través del color, el picor y la personalidad. Cada chile —rojo, verde y amarillo— encarna una fuerza distinta: El rojo es el fuego intenso, El verde es el equilibrio vibrante y El amarillo es la dulzura amable.</p>
@@ -1045,7 +1045,7 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-CONECTADOS/PUPUSERIA-CLARITA/PUPUSAERIA-6.png" alt="PUPUSAERIA 6" class="img-fluid b-ra2"></div>
         </div>
         
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #F1EBE3;">
                 <p style="color: #000;  text-shadow: none;">Los elementos fueron creados con una estética retro-vintage, usando un rojo vibrante, tipografías gruesas y cursivas, y un patrón de cuadros blancos tipo diner. La mascota Clarita, un frasco caricaturizado con espátula, se usa como ícono principal para dar personalidad y tradición. Cada pieza sigue la misma estructura:</p>
                 <p style="color: #000;  text-shadow: none;">Logo arriba, manteniendo la identidad clásica. Frase principal potente (“Hechas con amor”, “En Clarita no hay secretos”). Foto de pupusas reales, mostrando textura y abundancia. Mascota Clarita acompañando el mensaje. Información secundaria (precios, dirección, teléfono) cuando aplica. La paleta se mantiene constante: rojo, blanco y negro, creando una campaña sólida, reconocible y tradicional. Los diseños se adaptan a diferentes formatos (feed, stories, mupies, banners) sin perder coherencia. El tono de comunicación es cálido, nostálgico y auténtico, resaltando que las pupusas son 100% originales y hechas con amor.</p>
@@ -1101,7 +1101,7 @@ const contenido = {
             <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/SUNSHINE-BADBUNNY/BAD-BUNNY-7.png" alt="BAD BUNNY 7" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #9064AE;">
                 <p>El concepto de este trabajo se basa en el álbum YHLQMDLG (Yo Hago Lo Que Me Da la Gana) de Bad Bunny. La idea central del álbum gira en torno a qué hacer cuando estás triste o te han roto el corazón; la respuesta es escucharlo a él. A lo largo de las canciones, Bad Bunny expresa cómo se siente y lo que uno piensa en esos momentos, utilizando un lenguaje cotidiano, similar al que usamos cuando hablamos con amigos.</p> 
                 <p>A partir de este concepto pensé en el maquillaje, porque su música nos hace sentir bien por dentro y el maquillaje nos ayuda a vernos mejor por fuera. Para el empaque y el envase utilicé una paleta de colores en tonos pasteles que simulan estar rotos, reflejando la dualidad entre vulnerabilidad y fortaleza. En la paleta de sombras empleé colores vibrantes, inspirados en el uso característico de tonos llamativos en la estética de Bad Bunny, que transmiten energía y motivación. También incluí algunos tonos pasteles para generar contraste. Finalmente, incorporé el logo distintivo de Bad Bunny, el conejo, como elemento representativo del artista y su identidad visual.</p> 
@@ -1144,7 +1144,7 @@ const contenido = {
             <div class="col-6 gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/CREARTE/CREARTE-3.png" alt="CREARTE 3" class="img-fluid b-ra2"></div>
         </div>
         
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #D51E7D;">
                 <p>“Encendé tu chispa creativa” CREarte es una cajita de fósforos que no solo enciende fuego, sino ideas. Cada cajita es una pieza gráfica —como una mini-obra de arte coleccionable— que celebra la energía creativa que vive dentro de cada persona. El tigre, con colores intensos magenta y verde neón, simboliza el instinto creador, la valentía para expresarte y la fuerza para transformar cualquier idea en algo vivo.</p> 
                 <p>Idea Central CREarte existe para recordarte que la creatividad también se prende fuego. Una chispa basta para que una idea explote en color, forma y movimiento. El fósforo no es solo utilidad: Es metáfora de empezar, de activar, de iluminar el proceso creativo. Mensaje Emocional CREarte te recuerda que cada proyecto, cada dibujo, cada idea… empieza con una chispa. Encender un fósforo se convierte en un pequeño ritual creativo: un recordatorio de que vos también podés incendiar tus mundos internos.</p> 
@@ -1162,7 +1162,7 @@ const contenido = {
     kolashanpan: `
     <div id="kolashanpan" class="container pt-3">
         <div class="row d-flex g-3">
-            <div class="col-lg-4 fondo-tarjeta text-center">
+            <div class="col-lg-4 fondo-tarjeta d-flex text-center align-items-center">
                 <img src="../img/MUNDO-ENVOLVENTE/CARTA-KOLASHANPAN.png" alt="IMG GRANDE KOLASHANPAN" class="img-fluid">
             </div>
             <div class="col-lg-6 pt-4">
@@ -1187,28 +1187,47 @@ const contenido = {
         </div>
 
         <div class="row d-flex">
-            <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-3.png" alt="KOLASHANPAN 3" class="img-fluid b-ra2"></div>
+            <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-3.png" alt="KOLASHANPAN 2" class="img-fluid b-ra2"></div>
         </div>
 
         <div class="row d-flex">
-            <div class="col-7 gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-4.png" alt="KOLASHANPAN 4" class="img-fluid b-ra2" style="max-height: 780px"></div>
-            <div class="col-5 gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-5.png" alt="KOLASHANPAN 5" class="img-fluid b-ra2" style="max-height: 780px"></div>
+            <div class="col-6 col-lg-3 gx-3 gy-3">
+                <img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-4.png" alt="KOLASHANPAN 4" class="img-fluid b-ra2">
+            </div>
+            
+            <div class="col-6 col-lg-3 gx-3 gy-3">
+                <img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-5.png" alt="KOLASHANPAN 5" class="img-fluid b-ra2">
+            </div>
+
+            <div class="col-6 col-lg-3 gx-3 gy-3">
+                <img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-6.png" alt="KOLASHANPAN 6" class="img-fluid b-ra2">
+            </div>
+
+            <div class="col-6 col-lg-3 gx-3 gy-3">
+                <img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-7.png" alt="KOLASHANPAN 7" class="img-fluid b-ra2">
+            </div>
         </div>
 
         <div class="row d-flex">
-            <div class="col-6 gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-6.png" alt="KOLASHANPAN 6" class="img-fluid b-ra2" style="max-height: 780px"></div>
-            <div class="col-6 gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-7.png" alt="KOLASHANPAN 7" class="img-fluid b-ra2" style="max-height: 780px"></div>
+            <div class="col-6 gx-3 gy-3">
+                <img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-8.png" alt="KOLASHANPAN 8" class="img-fluid b-ra2">
+            </div>
+            
+            <div class="col-6 gx-3 gy-3">
+                <img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-9.png" alt="KOLASHANPAN 9" class="img-fluid b-ra2">
+            </div>
+        </div>
+
+
+        <div class="row d-flex">
+            <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-10.png" alt="KOLASHANPAN 8" class="img-fluid b-ra2"></div>
         </div>
 
         <div class="row d-flex">
-            <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-8.png" alt="KOLASHANPAN 8" class="img-fluid b-ra2"></div>
+            <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-11.png" alt="KOLASHANPAN 9" class="img-fluid b-ra2"></div>
         </div>
 
-        <div class="row d-flex">
-            <div class="gx-3 gy-3"><img src="../img/MUNDO-ENVOLVENTE/KOLASHANPAN/KOLASHANPAN-9.png" alt="KOLASHANPAN 9" class="img-fluid b-ra2"></div>
-        </div>
-
-        <div class="row d-flex mt-3 mx-auto">
+        <div class="row my-auto mx-auto gy-3">
             <div class="col p-4 b-ra" style="background-color: #00AFFE;">
                 <p>El proyecto consistió en un rebranding completo de Kolashanpan, realizado de forma grupal. El equipo investigó la historia, evolución visual e identidad actual de la marca, y creó el concepto rector “Orgullo que se comparte”, que guió toda la propuesta. Se desarrolló una identidad renovada, incluyendo nuevo logotipo, paleta cromática vibrante, tipografía, usos correctos e incorrectos y aplicaciones corporativas como papelería, carnets, uniformes y promocionales. También se elaboró la estrategia de marca y comunicación, junto con su buyer persona y posicionamiento actualizado.</p>
                 <p>Dentro del trabajo grupal, me encargué de las ilustraciones que se utilizaron en la identidad renovada, aportando el estilo visual que caracteriza el proyecto. Además, yo realicé los mockups, incluyendo botellas, empaques y el six-pack, logrando que el concepto pudiera verse aplicado de forma realista, profesional y coherente con el nuevo sistema visual.</p>
